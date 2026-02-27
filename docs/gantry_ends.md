@@ -59,7 +59,7 @@
 Once you have the gantry brackets assembled, continue to the next section to and begin the frame assembly.
 
 <p align="center">
-  <a href="/EnderCNC/frame" class="md-button md-button--primary">
+  <a href="/EnderCNCs/frame" class="md-button md-button--primary">
     Continue to Frame Assembly →
   </a>
 </p>
