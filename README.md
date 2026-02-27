@@ -20,6 +20,7 @@ Got too many Enders laying around? Don't need a [5th Trident?](https://github.co
 
 ### Ender3CNC (Budget Version)
 **[View Project Files](https://github.com/Futtawuh/EnderCNCs/tree/main/Ender3CNC)**
+**[Build manual](https://futtawuh.github.io/EnderCNCs/)**
 
 This new cheaper version is now released! Based only on the Ender 3 PRO, where every part from the printer counts to keep the BOM cost very low.
 
