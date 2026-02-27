@@ -132,7 +132,7 @@ This is to give you an idea of the cost if you were to build your own classic En
 Once you have the required parts, continue to the next section to review required printed parts.
 
 <p align="center">
-  <a href="/EnderCNC/printed_parts" class="md-button md-button--primary">
+  <a href="/EnderCNCs/printed_parts" class="md-button md-button--primary">
     Continue to Printed Parts →
   </a>
 </p>
