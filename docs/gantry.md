@@ -32,7 +32,7 @@ Attach bolts and the frame is complete
 You have now completed the frame assembly and ready to move on to the **Belts and Endstops**.
 
 <p align="center">
-  <a href="/EnderCNC/belts" class="md-button md-button--primary">
+  <a href="/EnderCNCs/belts" class="md-button md-button--primary">
     Continue to Belts →
   </a>
 </p>
