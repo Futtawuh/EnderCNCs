@@ -94,7 +94,7 @@ For reference only, this will be explained step by step.
 After completing these steps, your start assembling the **Carriage Assembly**.
 
 <p align="center">
-  <a href="/EnderCNC/carriage_assembly" class="md-button md-button--primary">
+  <a href="/EnderCNCs/carriage_assembly" class="md-button md-button--primary">
     Continue to Carriage Assembly →
   </a>
 </p>
