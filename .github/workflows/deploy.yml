@@ -1,0 +1,41 @@
+name: Deploy MkDocs Site
+
+# Trigger on push to main branch
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1️⃣ Check out the repo
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2️⃣ Set up Python
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      # 3️⃣ Install dependencies
+      - name: Install MkDocs & Material + Plugins
+        run: |
+          pip install mkdocs-material
+
+      # 4️⃣ Build the MkDocs site
+      - name: Build MkDocs site
+        run: mkdocs build --clean
+
+      # 5️⃣ Deploy the site
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site  

@@ -1,0 +1,77 @@
+# mkdocs.yml
+site_name: "Ender 3 CNC Build Manual"
+site_url: "https://futtawuh.github.io/EnderCNCs"
+site_description: "Step-by-step guide to converting an Ender 3 into a CNC machine"
+site_author: "John Clark"
+use_directory_urls: true
+
+# Theme configuration
+theme:
+  name: material
+  palette:
+    scheme: default
+    primary: indigo
+    accent: pink
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.instant
+    - navigation.sections
+    - toc.integrate
+    - search.highlight
+    - search.suggest
+  icon:
+    repo: fontawesome/brands/github
+
+# Repository link for 'Edit on GitHub'
+repo_name: "Futtawuh/EnderCNCs"
+repo_url: "https://github.com/Futtawuh/EnderCNCs"
+edit_uri: "edit/main/docs/"
+
+# Navigation / sidebar
+nav:
+  - Introduction: index.md
+  - Build Gallery: Builds/gallery.md
+  - Tools & Parts:
+      - Tools: tools.md
+      - Hardware: hardware.md
+      - Printed Parts: printed_parts.md
+      - Disassembly: disassembly.md
+  - Assembly:
+      - Prepare: carriage_prep.md
+      - Carriage: carriage_assembly.md
+      - XY Joints: gantry_ends.md
+      - Frame: frame.md
+      - Gantry: gantry.md
+      - Belts: belts.md
+      - Spindle: spindle.md
+  - Wiring & Electronics: wiring.md
+  - Firmware Setup: firmware.md
+  - Troubleshooting: troubleshooting.md
+  - Post Processing:
+      - General info: post_processing.md
+      - Fusion360: fusion360.md
+      - Freecad: freecad.md
+      - Kiri:Moto: kirimoto.md
+
+# Extra plugins
+plugins:
+  - search
+
+# Markdown extensions
+markdown_extensions:
+  - admonition    # for Notes, Warnings, Tips
+  - codehilite
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - toc:
+      permalink: true
+
+# Extra configuration
+extra:
+  base_url: "/EnderCNCs/"
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/john-clark/EnderCNC
