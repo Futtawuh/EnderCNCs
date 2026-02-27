@@ -138,7 +138,7 @@ The stock Ender 3 top horizontal extrusion will be cut and repurposed to form th
 Once you have the required tools, continue to the next section to review required hardware and the Bill of Materials.
 
 <p align="center">
-  <a href="/EnderCNC/hardware" class="md-button md-button--primary">
+  <a href="/EnderCNCs/hardware" class="md-button md-button--primary">
     Continue to Hardware & BOM →
   </a>
 </p>
