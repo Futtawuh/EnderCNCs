@@ -81,11 +81,11 @@ Notice in the picture that the processor and motor has documented pins.
 You have now completed Ender3CNC build and you can now do **Trouble Shooting** or move onto **Post Processing**.
 
 <p align="center">
-  <a href="/EnderCNC/troubleshooting" class="md-button md-button--warning">
+  <a href="/EnderCNCs/troubleshooting" class="md-button md-button--warning">
     Troubleshooting →
   </a>
 
-  <a href="/EnderCNC/post_processing" class="md-button md-button--primary">
+  <a href="/EnderCNCs/post_processing" class="md-button md-button--primary">
     Post Processing →
   </a>
 </p>
