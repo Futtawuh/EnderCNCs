@@ -122,7 +122,7 @@ Attach Backplate to Extrusion and top screws
 After completing these steps, your ready for **Gantry Assembly**.
 
 <p align="center">
-  <a href="/EnderCNC/gantry_ends" class="md-button md-button--primary">
+  <a href="/EnderCNCs/gantry_ends" class="md-button md-button--primary">
     Continue to Gantry Assembly →
   </a>
 </p>
