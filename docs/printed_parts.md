@@ -72,7 +72,7 @@
 After completing these steps, you are ready to **Disassemble your Ender 3**.
 
 <p align="center">
-  <a href="/EnderCNC/disassembly" class="md-button md-button--primary">
+  <a href="/EnderCNCs/disassembly" class="md-button md-button--primary">
     Continue to Ender Disassembly →
   </a>
 </p>
