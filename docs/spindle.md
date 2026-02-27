@@ -41,7 +41,7 @@ This chapter covers attaching your spindle or Dremel clamp.
 You have now completed tool attachment and ready to move on to the **Wiring and Electronics**.
 
 <p align="center">
-  <a href="/EnderCNC/wiring" class="md-button md-button--primary">
+  <a href="/EnderCNCs/wiring" class="md-button md-button--primary">
     Continue to Wiring and Electronics →
   </a>
 </p>
