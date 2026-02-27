@@ -15,7 +15,7 @@ You will thank yourself later for having a clean and organized work area (I wish
 After completing these steps, you are ready to start on the **Carriage Assembly**.
 
 <p align="center">
-  <a href="/EnderCNC/carriage_prep" class="md-button md-button--primary">
+  <a href="/EnderCNCs/carriage_prep" class="md-button md-button--primary">
     Continue to Carriage Assembly →
   </a>
 </p>
