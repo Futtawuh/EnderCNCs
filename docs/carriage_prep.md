@@ -39,6 +39,10 @@ For reference only, this will be explained step by step.
     When cutting the z rail start with the center cut `1` and then cut the outside through holes off so there is more extrusion to thread on to and it is easier to make sure they are the same length.
     ![cut 2020](images/z_cuts.png)
 
+## [Tap the 4 ends of the 150mm Extrusion](https://www.printables.com/model/1051715-drill-and-tap-jig-for-2020-2040-and-4040-v-slot-ex)
+
+[![Tapping Extrusion](https://futtawuh.github.io/EnderCNCs/images/FK2IFP1I99QZJVE-2046391668.jpg)](https://www.printables.com/model/1051715-drill-and-tap-jig-for-2020-2040-and-4040-v-slot-ex)
+
 ---
 
 ## Install heatsets and pressfits for the carriage.
