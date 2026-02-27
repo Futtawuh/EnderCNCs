@@ -67,7 +67,7 @@ This chapter covers connecting limit switches, wiring the motors, and PSU setup.
 You have now completed the wiring and ready to move on to the **Firmware Setup**.
 
 <p align="center">
-  <a href="/EnderCNC/firmware" class="md-button md-button--primary">
+  <a href="/EnderCNCs/firmware" class="md-button md-button--primary">
     Continue to Firmware →
   </a>
 </p>
