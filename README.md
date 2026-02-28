@@ -53,7 +53,7 @@ This new cheaper version is now released! Based only on the Ender 3 PRO, where e
 
 **Documentation**
 * [BILL OF MATERIAL](https://github.com/Futtawuh/EnderCNCs/blob/main/Ender3CNC/BOM.md)
-* [BUILD GUIDE (WIP)](https://github.com/Futtawuh/EnderCNCs/blob/main/Ender3CNC/Manual.md)
+* [BUILD GUIDE (WIP)](https://futtawuh.github.io/EnderCNCs/)
 * [Changelog](https://github.com/Futtawuh/EnderCNC/blob/main/Changelog.md)
 
 **Files**
