@@ -9,12 +9,27 @@ use_directory_urls: true
 theme:
   name: material
   palette:
-    scheme: default
-    primary: indigo
-    accent: pink
+
+    # Light mode
+    - scheme: default
+      primary: indigo
+      accent: pink
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    # Dark mode
+    - scheme: slate
+      primary: indigo
+      accent: pink
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
   font:
     text: Roboto
     code: Roboto Mono
+
   features:
     - navigation.instant
     - navigation.sections
