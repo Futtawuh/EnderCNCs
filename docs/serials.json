@@ -1,1 +1,283 @@
-{ "issued": [] }
+{
+  "issued": [
+    {
+      "serialNumber": 1,
+      "username": "steve_3d_builder",
+      "machineVersion": "Ender3CNC",
+      "machineName": "Ender3CNC",
+      "buildDate": "2025-08-01",
+      "imageUrl": "https://via.placeholder.com/400x300?text=No+Image",
+      "issuedAt": "2026-01-04T12:48:12.300Z"
+    },
+    {
+      "serialNumber": 2,
+      "username": "shadowphyre",
+      "machineVersion": "Ender3CNC",
+      "machineName": "Ender3CNC",
+      "buildDate": "2025-08-01",
+      "imageUrl": "https://via.placeholder.com/400x300?text=No+Image",
+      "issuedAt": "2026-01-04T12:49:13.886Z"
+    },
+    {
+      "serialNumber": 3,
+      "username": "scalaw4g",
+      "machineVersion": "Ender3CNC",
+      "machineName": "Ender3CNC",
+      "buildDate": "2025-08-01",
+      "imageUrl": "https://via.placeholder.com/400x300?text=No+Image",
+      "issuedAt": "2026-01-04T12:49:38.276Z"
+    },
+    {
+      "serialNumber": 4,
+      "username": "lost.physicist",
+      "machineVersion": "Ender3CNC",
+      "machineName": "Ender3CNC",
+      "buildDate": "2025-08-31",
+      "imageUrl": "https://via.placeholder.com/400x300?text=No+Image",
+      "issuedAt": "2026-01-04T12:50:29.337Z"
+    },
+    {
+      "serialNumber": 5,
+      "username": "spoonie2385",
+      "machineVersion": "Ender3CNC",
+      "machineName": "Ender3CNC",
+      "buildDate": "2025-09-27",
+      "imageUrl": "https://via.placeholder.com/400x300?text=No+Image",
+      "issuedAt": "2026-01-04T12:52:22.987Z"
+    },
+    {
+      "serialNumber": 6,
+      "username": "tim_loi",
+      "machineVersion": "Ender3CNC",
+      "machineName": "Ender3CNC",
+      "buildDate": "2025-10-14",
+      "imageUrl": "https://via.placeholder.com/400x300?text=No+Image",
+      "issuedAt": "2026-01-04T13:01:09.829Z"
+    },
+    {
+      "serialNumber": 7,
+      "username": "slyngsh0t",
+      "machineVersion": "Ender3CNC",
+      "machineName": "Ender3CNC",
+      "buildDate": "2025-10-14",
+      "imageUrl": "https://via.placeholder.com/400x300?text=No+Image",
+      "issuedAt": "2026-01-04T13:02:02.276Z"
+    },
+    {
+      "serialNumber": 8,
+      "username": "piro_o",
+      "machineVersion": "Ender3CNC",
+      "machineName": "Ender3CNC",
+      "buildDate": "2025-11-11",
+      "imageUrl": "https://via.placeholder.com/400x300?text=No+Image",
+      "issuedAt": "2026-01-04T13:02:52.743Z"
+    },
+    {
+      "serialNumber": 9,
+      "username": "__vz__",
+      "machineVersion": "Ender3CNC",
+      "machineName": "Ender3CNC",
+      "buildDate": "2025-11-16",
+      "imageUrl": "https://via.placeholder.com/400x300?text=No+Image",
+      "issuedAt": "2026-01-04T13:16:46.640Z"
+    },
+    {
+      "serialNumber": 10,
+      "username": "coominpickle",
+      "machineVersion": "Ender3CNC",
+      "machineName": "Ender3CNC",
+      "buildDate": "2025-11-16",
+      "imageUrl": "https://via.placeholder.com/400x300?text=No+Image",
+      "issuedAt": "2026-01-04T13:17:31.585Z"
+    },
+    {
+      "serialNumber": 11,
+      "username": "rian_odonnell1337",
+      "machineVersion": "Ender3CNC",
+      "machineName": "Ender3CNC",
+      "buildDate": "2025-11-17",
+      "imageUrl": "https://via.placeholder.com/400x300?text=No+Image",
+      "issuedAt": "2026-01-04T13:18:18.877Z"
+    },
+    {
+      "serialNumber": 12,
+      "username": "nulterm",
+      "machineVersion": "Ender3CNC",
+      "machineName": "Ender3CNC",
+      "buildDate": "2025-11-19",
+      "imageUrl": "https://via.placeholder.com/400x300?text=No+Image",
+      "issuedAt": "2026-01-04T13:19:22.435Z"
+    },
+    {
+      "serialNumber": 13,
+      "username": "bluehusky424",
+      "machineVersion": "Ender3CNC",
+      "machineName": "Ender3CNC",
+      "buildDate": "2025-11-20",
+      "imageUrl": "https://via.placeholder.com/400x300?text=No+Image",
+      "issuedAt": "2026-01-04T13:20:12.247Z"
+    },
+    {
+      "serialNumber": 14,
+      "username": "vek06",
+      "machineVersion": "Ender3CNC",
+      "machineName": "Ender3CNC",
+      "buildDate": "2025-11-24",
+      "imageUrl": "https://via.placeholder.com/400x300?text=No+Image",
+      "issuedAt": "2026-01-04T13:21:10.626Z"
+    },
+    {
+      "serialNumber": 15,
+      "username": "superjasiek.",
+      "machineVersion": "Ender3CNC",
+      "machineName": "Ender3CNC",
+      "buildDate": "2025-11-25",
+      "imageUrl": "https://via.placeholder.com/400x300?text=No+Image",
+      "issuedAt": "2026-01-04T13:22:50.503Z"
+    },
+    {
+      "serialNumber": 16,
+      "username": "itsmosby",
+      "machineVersion": "Ender3CNC",
+      "machineName": "Ender3CNC",
+      "buildDate": "2025-11-26",
+      "imageUrl": "https://via.placeholder.com/400x300?text=No+Image",
+      "issuedAt": "2026-01-04T13:24:21.912Z"
+    },
+    {
+      "serialNumber": 17,
+      "username": "timtobeat",
+      "machineVersion": "Ender3CNC",
+      "machineName": "Ender3CNC",
+      "buildDate": "2025-12-07",
+      "imageUrl": "https://via.placeholder.com/400x300?text=No+Image",
+      "issuedAt": "2026-01-04T13:26:02.133Z"
+    },
+    {
+      "serialNumber": 18,
+      "username": "kestranor",
+      "machineVersion": "Ender3CNC",
+      "machineName": "Ender3CNC",
+      "buildDate": "2025-12-23",
+      "imageUrl": "https://via.placeholder.com/400x300?text=No+Image",
+      "issuedAt": "2026-01-04T14:38:41.279Z"
+    },
+    {
+      "serialNumber": 19,
+      "username": "dillpickckle",
+      "machineVersion": "Ender3CNC",
+      "machineName": "Ender3CNC",
+      "buildDate": "2025-12-24",
+      "imageUrl": "https://cdn.discordapp.com/attachments/1398224248664752249/1453171497655861248/IMG_2163.jpg?ex=695ba42b&is=695a52ab&hm=662e3198ffe10f938d780e9cc0c0e033bb9a8234f90986b94f86e23708fa3e02&",
+      "issuedAt": "2026-01-04T14:39:29.018Z"
+    },
+    {
+      "serialNumber": 20,
+      "username": "scherwiii",
+      "machineVersion": "Ender3CNC",
+      "machineName": "Ender3CNC",
+      "buildDate": "2025-12-24",
+      "imageUrl": "https://via.placeholder.com/400x300?text=No+Image",
+      "issuedAt": "2026-01-04T14:40:06.450Z"
+    },
+    {
+      "serialNumber": 21,
+      "username": "ablaze3dp",
+      "machineVersion": "Ender3CNC",
+      "machineName": "Ender3CNC",
+      "buildDate": "2025-12-24",
+      "imageUrl": "https://cdn.discordapp.com/attachments/1398224248664752249/1453413409172226141/20251224_075328.jpg?ex=695b33f7&is=6959e277&hm=60171cbc74942225a5718b0c9df8d8bd189884062fd8a3fef1939bedb4f97758&",
+      "issuedAt": "2026-01-04T14:40:42.533Z"
+    },
+    {
+      "serialNumber": 22,
+      "username": "yahyald",
+      "machineVersion": "Ender3CNC (Budget)",
+      "machineName": "e3v",
+      "buildDate": "2026-01-18",
+      "imageUrl": "https://cdn.discordapp.com/attachments/1398224248664752249/1462430567399297217/IMG_20260118_155550.jpg?ex=696e2a19&is=696cd899&hm=c101de0c00f97596db65be2b3d21dc07d4fb88d19e0c6d78f5644d1c7032bb93&",
+      "issuedAt": "2026-01-18T12:59:53.901Z"
+    },
+    {
+      "serialNumber": 23,
+      "username": "_toxa_5842",
+      "machineVersion": "Ender3CNC (Budget)",
+      "machineName": "Ender3CNC (Budget)",
+      "buildDate": "2026-02-06",
+      "imageUrl": "https://cdn.discordapp.com/attachments/1398224248664752249/1469311674010964063/20260206_143920.jpg?ex=698732a1&is=6985e121&hm=113eebe648b6527f76cabcc4f404dac4f1882abd3a88b50d15be19c4ce4433bb&",
+      "issuedAt": "2026-02-06T12:44:50.431Z"
+    },
+    {
+      "serialNumber": 24,
+      "username": "5k7m4n",
+      "machineVersion": "EnderCNC Original",
+      "machineName": "/skip",
+      "buildDate": "2026-02-28",
+      "imageUrl": "https://cdn.discordapp.com/attachments/1398224248664752249/1477165108877590690/IMG_2700.jpg?ex=69a3c4b6&is=69a27336&hm=da502a589553dc8144ac3e9a8898228d498a073b1c555edc0b8e240e3b1af9d1&",
+      "issuedAt": "2026-02-28T06:17:17.876Z"
+    },
+    {
+      "serialNumber": 25,
+      "username": "hubra",
+      "machineVersion": "EnderCNC Original",
+      "machineName": "EnderCNC Original",
+      "buildDate": "2026-03-01",
+      "imageUrl": "https://cdn.discordapp.com/attachments/1398224248664752249/1477627125069779056/20260223_183404.jpg?ex=69a572ff&is=69a4217f&hm=0bb26dc3910366ce97bde81ec42cbd867ee49493c22eb56f936aea04cdf4850f&",
+      "issuedAt": "2026-03-01T11:33:51.013Z"
+    },
+    {
+      "serialNumber": 26,
+      "username": "04ixn",
+      "machineVersion": "Ender3CNC (Budget)",
+      "machineName": "Ender3CNC (Budget)",
+      "buildDate": "2026-03-14",
+      "imageUrl": "https://cdn.discordapp.com/attachments/1398224248664752249/1482335858236457060/IMG_20260314_155423_220.jpg?ex=69b69459&is=69b542d9&hm=e8367159d0ee13b1ef0d52a22b8655f43394f0b3576de44088e69c5862467887&",
+      "issuedAt": "2026-03-14T11:17:43.755Z"
+    },
+    {
+      "serialNumber": 27,
+      "username": "erik256_blameprody",
+      "machineVersion": "Custom Build",
+      "machineName": "Custom Build",
+      "buildDate": "2026-03-15",
+      "imageUrl": "https://cdn.discordapp.com/attachments/1398224248664752249/1482744117338570773/20260315_151357.jpg?ex=69b81091&is=69b6bf11&hm=0ea6a6f7d611e144f34d626e1bb2b6155df0677edff402cfdd0e33b58ab955bd&",
+      "issuedAt": "2026-03-15T14:17:53.403Z"
+    },
+    {
+      "serialNumber": 28,
+      "username": "freundlich_",
+      "machineVersion": "EnderCNC MGN",
+      "machineName": "Knoten",
+      "buildDate": "2026-04-10",
+      "imageUrl": "https://cdn.discordapp.com/attachments/1398224248664752249/1492186065539432468/PXL_20260410_152959121.MP.jpg?ex=69da6a11&is=69d91891&hm=f0fba4ec9b1ebc0cba1aa26421ae25eabfde5c6da25d5e8509564c120ead6aab&",
+      "issuedAt": "2026-04-10T16:01:07.564Z"
+    },
+    {
+      "serialNumber": 29,
+      "username": "chaukmusic",
+      "machineVersion": "Ender3CNC (Budget)",
+      "machineName": "Delamain",
+      "buildDate": "2026-04-14",
+      "imageUrl": "https://cdn.discordapp.com/attachments/1398224248664752249/1493480277593293001/IMG_6948.jpg?ex=69df1f65&is=69ddcde5&hm=93f76bfe6d198f6039ad850dc2f148c69665e2a61f43e549d728162b7747dce3&",
+      "issuedAt": "2026-04-14T05:25:39.281Z"
+    },
+    {
+      "serialNumber": 30,
+      "username": "crysxd",
+      "machineVersion": "E3CNC Rod Mod",
+      "machineName": "Carla",
+      "buildDate": "2026-04-29",
+      "imageUrl": "https://cdn.discordapp.com/attachments/1398224248664752249/1499012799530139778/IMG_2125.jpg?ex=69f33ff5&is=69f1ee75&hm=c6b3c5a113a05467363874112cf25da20d2eba25ef92c61a927aa360ced33328&",
+      "issuedAt": "2026-04-29T11:42:31.808Z"
+    },
+    {
+      "serialNumber": 31,
+      "username": "axel.v",
+      "machineVersion": "Ender3CNC (Budget)",
+      "machineName": "The31",
+      "buildDate": "2026-04-29",
+      "imageUrl": "https://cdn.discordapp.com/attachments/1398224248664752249/1499017167251968041/IMG_0384.jpg?ex=69f34407&is=69f1f287&hm=915350bf0a93ccbbf6020d74d1d3dd421337c3a4edb19e4e362801fa63dc69e7&",
+      "issuedAt": "2026-04-29T12:00:58.436Z"
+    }
+  ]
+}
