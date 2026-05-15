@@ -19,7 +19,7 @@ Got too many Enders laying around? Don't need a [5th Trident?](https://github.co
 ## Current Versions
 
 ### Ender3CNC (Budget Version)
-- **[BILL OF MATERIAL](https://futtawuh.github.io/EnderCNCs/hardware/#parts-to-purchase-bom-bill-of-materials)
+- **[BILL OF MATERIAL](https://futtawuh.github.io/EnderCNCs/hardware/#parts-to-purchase-bom-bill-of-materials)**
 - **[View Project Files](https://github.com/Futtawuh/EnderCNCs/tree/main/Ender3CNC)**
 - **[View Build Manual](https://futtawuh.github.io/EnderCNCs/)**
 
