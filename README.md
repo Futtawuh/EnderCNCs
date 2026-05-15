@@ -42,9 +42,8 @@ This new cheaper version is now released! Based only on the Ender 3 PRO, where e
 * screen if you want
 
 **Features:**
-* BOM cost approximately $60-80$ (not counting the Ender 3 PRO or dremel/spindle)
+* BOM cost approximately 60-80$ (not counting the Ender 3 PRO or dremel/spindle)
 * Chances are you have some of the BOM laying around already.
-* 
 <div align="center">
 <img width="800" alt="Ender3CNC view 1" src="https://github.com/user-attachments/assets/df2746be-0fd8-4aa2-b609-81031dc4cfa2" />
 <img width="800" alt="Ender3CNC view 2" src="https://github.com/user-attachments/assets/43854a83-0945-4e80-aa53-9ccf8a7e4b0b" />
