@@ -77,8 +77,11 @@ This new cheaper version is now released! Based only on the Ender 3 PRO, where e
 * More rigid
 * Can easily be modified to fit 8-16mm rods
 
-### MGN Version (SoonTM)
-The MGN version will be based around the new Ender3CNC version, with minor tweaks to the frame layout resulting in a bigger cutting area.
+### MGN Version in BETA
+### [CAD here](https://github.com/Futtawuh/EnderCNCs/tree/main/Ender3CNC/E3CNC_MGN_BETA)
+The MGN version is be based around the base Ender3CNC version. 
+Feel free to test it out. 
+
 
 ---
 
