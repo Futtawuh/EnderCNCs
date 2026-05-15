@@ -71,10 +71,18 @@ Before diving in there a few key differences between versions of Ender 3 3D prin
 
 ## Parts to Purchase (BOM) Bill of Materials
 
+### These extrusions are only needed if you have the Ender 3[not PRO] with 2040 under the bed. 
+### If you have the Ender 3 PRO with 4040 under the bed you can ignore these extrusions. 
 | Qty | Part Description    | Specifications           | Notes                      |
 |-----|---------------------|--------------------------|----------------------------|
 | **Extrusion**                                                                     |
 | 2x  | 2040 v-slot         | 300mm                    | Only for Original Ender    |
+**OR**
+| 1x  | 4040 v-slot         | 300mm                    | Only for Original Ender    |
+-------------------------------------------------------------------------------------
+### Must buy for any Ender 3 used: 
+| Qty | Part Description    | Specifications           | Notes                      |
+|-----|---------------------|--------------------------|----------------------------|
 | **Motion Components**                                                             |
 | 3x  | GT2 belts           | 350mm length, 6mm width  | Buy 3-5 meter roll         |
 | 3x  | GT2 pulleys         | 20T, 6mm width, 5mm bore |                            |
@@ -89,7 +97,7 @@ Before diving in there a few key differences between versions of Ender 3 3D prin
 | 70x | M5x16 button head   |                          |                            |
 | 22x | M3x10 screws        | Not countersunk          |                            |
 | 12x | M3x8 SHCS           | Socket head cap screws   |                            |
-| 1x | M5x65 SHCS.          | Socket head cap screws   |                            |
+| 1x | M5x65                | Socket/button head SC    | Need 1 for the middle wheel|
 | **Hardware**                                                                      |
 | 30x | Heat set inserts    | M3x4x5mm                 | Voron spec                 |
 | 4x  | M5 shims            | OD 10mm, ID 5mm, 1mm     | Washers                    |
