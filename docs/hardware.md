@@ -89,6 +89,7 @@ Before diving in there a few key differences between versions of Ender 3 3D prin
 | 70x | M5x16 button head   |                          |                            |
 | 22x | M3x10 screws        | Not countersunk          |                            |
 | 12x | M3x8 SHCS           | Socket head cap screws   |                            |
+| 1x | M5x65 SHCS.          | Socket head cap screws   |                            |
 | **Hardware**                                                                      |
 | 30x | Heat set inserts    | M3x4x5mm                 | Voron spec                 |
 | 4x  | M5 shims            | OD 10mm, ID 5mm, 1mm     | Washers                    |
