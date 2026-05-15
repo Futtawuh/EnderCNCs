@@ -16,7 +16,7 @@ You can ofcourse go the GRBL route if you want. I just wanted to use klipper sin
 
  
 
-## Check out the ["Build guide"](https://github.com/Futtawuh/EnderCNCs/blob/main/Ender3CNC/Manual.md) (not finished) 
+## Check out the ["Build guide"](https://futtawuh.github.io/EnderCNCs/)
 
 - Reusing as much as possible from the Ender 3 PRO down to the screws.
 - Cheaper BOM than the original EnderCNC. BOM is mostly just some screws, 2x linear rails for Z and m3/m5 tnuts.
