@@ -278,6 +278,15 @@
       "buildDate": "2026-04-29",
       "imageUrl": "http://89.251.18.227:3000/images/build-31.jpg",
       "issuedAt": "2026-04-29T12:00:58.436Z"
+    },
+    {
+      "serialNumber": 32,
+      "username": "hudrucan",
+      "machineVersion": "Ender3CNC (Budget)",
+      "machineName": "e3v2cnc",
+      "buildDate": "2026-05-22",
+      "imageUrl": "http://89.251.18.227:3000/images/build-32.jpg",
+      "issuedAt": "2026-05-22T10:09:55.109Z"
     }
   ]
 }
