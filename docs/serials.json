@@ -287,6 +287,33 @@
       "buildDate": "2026-05-22",
       "imageUrl": "http://89.251.18.227:3000/images/build-32.jpg",
       "issuedAt": "2026-05-22T10:09:55.109Z"
+    },
+    {
+      "serialNumber": 33,
+      "username": "chaukmusic",
+      "machineVersion": "EnderCNC MGN",
+      "machineName": "Ava",
+      "buildDate": "2026-05-27",
+      "imageUrl": "http://89.251.18.227:3000/images/build-33.mp4",
+      "issuedAt": "2026-05-27T07:37:08.627Z"
+    },
+    {
+      "serialNumber": 34,
+      "username": "ric2386",
+      "machineVersion": "Ender3CNC (Budget)",
+      "machineName": "Ric E3CNC",
+      "buildDate": "2026-05-28",
+      "imageUrl": "http://89.251.18.227:3000/images/build-34.jpg",
+      "issuedAt": "2026-05-28T05:19:05.987Z"
+    },
+    {
+      "serialNumber": 35,
+      "username": "toyrace",
+      "machineVersion": "Ender3CNC (Budget)",
+      "machineName": "Walter",
+      "buildDate": "2026-05-28",
+      "imageUrl": "http://89.251.18.227:3000/images/build-35.jpg",
+      "issuedAt": "2026-05-28T17:47:26.083Z"
     }
   ]
 }
