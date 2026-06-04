@@ -314,6 +314,15 @@
       "buildDate": "2026-05-28",
       "imageUrl": "http://89.251.18.227:3000/images/build-35.jpg",
       "issuedAt": "2026-05-28T17:47:26.083Z"
+    },
+    {
+      "serialNumber": 36,
+      "username": "ima_f1",
+      "machineVersion": "Custom Build",
+      "machineName": "Custom Build",
+      "buildDate": "2026-06-01",
+      "imageUrl": "http://89.251.18.227:3000/images/build-36.jpg",
+      "issuedAt": "2026-06-01T18:55:11.542Z"
     }
   ]
 }
