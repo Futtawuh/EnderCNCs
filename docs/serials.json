@@ -332,6 +332,15 @@
       "buildDate": "2026-06-10",
       "imageUrl": "http://89.251.18.227:3000/images/build-37.jpg",
       "issuedAt": "2026-06-10T19:18:00.311Z"
+    },
+    {
+      "serialNumber": 38,
+      "username": "aka_talon",
+      "machineVersion": "E3CNC Rod Mod",
+      "machineName": "Raptor",
+      "buildDate": "2026-06-10",
+      "imageUrl": "http://89.251.18.227:3000/images/build-38.jpg",
+      "issuedAt": "2026-06-10T23:02:35.597Z"
     }
   ]
 }
