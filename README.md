@@ -85,7 +85,7 @@ Feel free to test it out. Currently being tested by a Discord member.
 
 ### EnderMilo_RODMOD out of BETA and working! 
 ### [CAD here](https://github.com/Futtawuh/EnderCNCs/tree/main/Ender3CNC/Developer_MODS/E3MILO_RODMOD)
-- Built and working, you can check it out in out discord server. 
+- Built and working, you can check it out in our Discord server. 
 <img width="1149" height="1096" alt="Screenshot_20260516_001223" src="https://github.com/user-attachments/assets/73e69dcf-b6fb-4035-9d93-cf713979125c" />
 
 ### EnderMilo MGN into BETA! 
