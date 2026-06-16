@@ -278,6 +278,69 @@
       "buildDate": "2026-04-29",
       "imageUrl": "http://89.251.18.227:3000/images/build-31.jpg",
       "issuedAt": "2026-04-29T12:00:58.436Z"
+    },
+    {
+      "serialNumber": 32,
+      "username": "hudrucan",
+      "machineVersion": "Ender3CNC (Budget)",
+      "machineName": "e3v2cnc",
+      "buildDate": "2026-05-22",
+      "imageUrl": "http://89.251.18.227:3000/images/build-32.jpg",
+      "issuedAt": "2026-05-22T10:09:55.109Z"
+    },
+    {
+      "serialNumber": 33,
+      "username": "chaukmusic",
+      "machineVersion": "EnderCNC MGN",
+      "machineName": "Ava",
+      "buildDate": "2026-05-27",
+      "imageUrl": "http://89.251.18.227:3000/images/build-33.mp4",
+      "issuedAt": "2026-05-27T07:37:08.627Z"
+    },
+    {
+      "serialNumber": 34,
+      "username": "ric2386",
+      "machineVersion": "Ender3CNC (Budget)",
+      "machineName": "Ric E3CNC",
+      "buildDate": "2026-05-28",
+      "imageUrl": "http://89.251.18.227:3000/images/build-34.jpg",
+      "issuedAt": "2026-05-28T05:19:05.987Z"
+    },
+    {
+      "serialNumber": 35,
+      "username": "toyrace",
+      "machineVersion": "Ender3CNC (Budget)",
+      "machineName": "Walter",
+      "buildDate": "2026-05-28",
+      "imageUrl": "http://89.251.18.227:3000/images/build-35.jpg",
+      "issuedAt": "2026-05-28T17:47:26.083Z"
+    },
+    {
+      "serialNumber": 36,
+      "username": "ima_f1",
+      "machineVersion": "Custom Build",
+      "machineName": "Custom Build",
+      "buildDate": "2026-06-01",
+      "imageUrl": "http://89.251.18.227:3000/images/build-36.jpg",
+      "issuedAt": "2026-06-01T18:55:11.542Z"
+    },
+    {
+      "serialNumber": 37,
+      "username": "aka_talon",
+      "machineVersion": "E3CNC Rod Mod",
+      "machineName": "Raptor",
+      "buildDate": "2026-06-10",
+      "imageUrl": "http://89.251.18.227:3000/images/build-37.jpg",
+      "issuedAt": "2026-06-10T19:18:00.311Z"
+    },
+    {
+      "serialNumber": 38,
+      "username": "aka_talon",
+      "machineVersion": "E3CNC Rod Mod",
+      "machineName": "Raptor",
+      "buildDate": "2026-06-10",
+      "imageUrl": "http://89.251.18.227:3000/images/build-38.jpg",
+      "issuedAt": "2026-06-10T23:02:35.597Z"
     }
   ]
 }
