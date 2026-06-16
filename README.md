@@ -77,16 +77,23 @@ This new cheaper version is now released! Based only on the Ender 3 PRO, where e
 * More rigid
 * Can easily be modified to fit 8-16mm rods
 
-### MGN Version in BETA
+### MGN Version in BETA (currently built and working)
 ### [CAD here](https://github.com/Futtawuh/EnderCNCs/tree/main/Ender3CNC/E3CNC_MGN_BETA)
 The MGN version is be based around the base Ender3CNC version. 
 Feel free to test it out. Currently being tested by a Discord member. 
 <img width="1539" height="1148" alt="556110080-e2093d39-927c-45b9-a952-68250c5ae99f" src="https://github.com/user-attachments/assets/30cf59dd-78aa-44b3-8aa8-acf83327304a" />
 
-### EnderMilo in BETA
-### [CAD here](https://github.com/Futtawuh/EnderCNCs/tree/main/Ender3CNC/Developer_MODS/E3MILO)
+### EnderMilo_RODMOD out of BETA and working! 
+### [CAD here](https://github.com/Futtawuh/EnderCNCs/tree/main/Ender3CNC/Developer_MODS/E3MILO_RODMOD)
 - Built and working, you can check it out in out discord server. 
 <img width="1149" height="1096" alt="Screenshot_20260516_001223" src="https://github.com/user-attachments/assets/73e69dcf-b6fb-4035-9d93-cf713979125c" />
+
+### EnderMilo MGN into BETA! 
+### [CAD here](https://github.com/Futtawuh/EnderCNCs/tree/main/Ender3CNC/Developer_MODS/E3MILO%20MGN%20BETA)
+- Feel free to build, not tested as of 17 June 2026. Will be test built soonTM
+<img width="1039" height="1084" alt="image" src="https://github.com/user-attachments/assets/29e41b0c-342a-46f1-aad0-1d905dac65ef" />
+
+
 
 ---
 
