@@ -65,7 +65,7 @@ Post a picture or video in the Discord channel #serial-request or DM **Ravenkeep
   var gallery = document.getElementById('build-gallery');
   var loading = document.getElementById('gallery-loading');
 
-  fetch('/EnderCNCs/serials.json')
+  fetch('../serials.json')
     .then(function (r) {
       if (!r.ok) throw new Error('HTTP ' + r.status);
       return r.json();
