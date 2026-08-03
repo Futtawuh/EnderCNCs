@@ -64,8 +64,9 @@ Post a picture or video in the Discord channel #serial-request or DM **Ravenkeep
 (function () {
   var gallery = document.getElementById('build-gallery');
   var loading = document.getElementById('gallery-loading');
-
-  fetch('/EnderCNCs/serials.json')
+  var basePath = window.location.pathname.startsWith('/EnderCNCs') ? '/EnderCNCs' : '';
+  
+  fetch(basePath + '/serials.json')
     .then(function (r) {
       if (!r.ok) throw new Error('HTTP ' + r.status);
       return r.json();
@@ -87,17 +88,24 @@ Post a picture or video in the Discord channel #serial-request or DM **Ravenkeep
       builds.forEach(function (build) {
         var num = String(build.serialNumber).padStart(2, '0');
         var isPlaceholder = !build.imageUrl || build.imageUrl.indexOf('placeholder.com') !== -1;
-        var img = isPlaceholder
+        
+        var imgUrl = build.imageUrl;
+        if (!isPlaceholder && imgUrl.indexOf('images/') === 0) {
+          imgUrl = '../' + imgUrl;
+        }
+
+        var imgHtml = isPlaceholder
           ? '<div class="picture-needed">Picture needed</div>'
-          : '<a href="' + build.imageUrl + '" target="_blank" rel="noopener noreferrer">' +
-            '<img src="' + build.imageUrl + '" alt="' + build.username + ' Build" loading="lazy">' +
+          : '<a href="' + imgUrl + '" target="_blank" rel="noopener noreferrer">' +
+            '<img src="' + imgUrl + '" alt="' + build.username + ' Build" loading="lazy" onerror="this.onerror=null; this.parentNode.outerHTML=\'<div class=\\\'picture-needed\\\'>Image unavailable</div>\';">' +
             '</a>';
+
         var card = document.createElement('div');
         card.className = 'build-card';
         card.innerHTML =
           '<span class="serial-badge">E3CNC.' + num + '</span>' +
           '<h4>' + build.username + '</h4>' +
-          img;
+          imgHtml;
         gallery.appendChild(card);
       });
     })

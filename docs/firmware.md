@@ -85,7 +85,7 @@ You have now completed Ender3CNC build and you can now do **Trouble Shooting** o
     Troubleshooting →
   </a>
 
-  <a href="/EnderCNCs/post_processing" class="md-button md-button--primary">
+  <a href="/EnderCNCs/cad/post_processing" class="md-button md-button--primary">
     Post Processing →
   </a>
 </p>

@@ -33,6 +33,7 @@ theme:
   features:
     - navigation.instant
     - navigation.sections
+    - navigation.indexes
     - toc.integrate
     - search.highlight
     - search.suggest
@@ -53,22 +54,32 @@ nav:
       - Hardware: hardware.md
       - Printed Parts: printed_parts.md
       - Disassembly: disassembly.md
-  - Assembly:
-      - Prepare: carriage_prep.md
-      - Carriage: carriage_assembly.md
-      - XY Joints: gantry_ends.md
-      - Frame: frame.md
-      - Gantry: gantry.md
-      - Belts: belts.md
-      - Spindle: spindle.md
+      - Choosing a Build: models/choosing.md
+  - Build Guides:
+      - V-wheel Assembly (Standard):
+          - Prepare: models/vwheel/carriage_prep.md
+          - Carriage: models/vwheel/carriage_assembly.md
+          - XY Joints: models/vwheel/gantry_ends.md
+          - Frame: models/vwheel/frame.md
+          - Gantry: models/vwheel/gantry.md
+          - Belts: models/vwheel/belts.md
+          - Spindle: models/vwheel/spindle.md
+      - RODMOD Build:
+          - Assembly Manual Coming Soon: models/comingsoon.md
+      - MGN Build:
+          - Assembly Manual Coming Soon: models/comingsoon.md
+      - EnderMilo (RODMOD):
+          - Assembly Manual Coming Soon: models/comingsoon.md
+      - EnderMilo (MGN):
+          - Coming Soon: models/comingsoon.md
   - Wiring & Electronics: wiring.md
   - Firmware Setup: firmware.md
   - Troubleshooting: troubleshooting.md
   - Post Processing:
-      - General info: post_processing.md
-      - Fusion360: fusion360.md
-      - Freecad: freecad.md
-      - Kiri:Moto: kirimoto.md
+      - General info: cad/post_processing.md
+      - Fusion360: cad/fusion360.md
+      - Freecad: cad/freecad.md
+      - Kiri:Moto: cad/kirimoto.md
 
 # Extra plugins
 plugins:

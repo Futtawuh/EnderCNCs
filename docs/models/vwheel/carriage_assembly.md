@@ -116,13 +116,21 @@ Attach Backplate to Extrusion and top screws
     Ender3 aluminum spacers are 8.35mm. If using 8mm spacers from another source, use the **printed lower middle spacer** to maintain alignment.
 
 ---
+
+## Assembly Exploded
+
+For reference only, this will be explained step by step.
+
+![Exploded Assembly](images/carriage_info.webp)
+
+---
     
 ## Ready to Proceed?
 
 After completing these steps, your ready for **Gantry Assembly**.
 
 <p align="center">
-  <a href="/EnderCNCs/gantry_ends" class="md-button md-button--primary">
+  <a href="gantry_ends" class="md-button md-button--primary">
     Continue to Gantry Assembly →
   </a>
 </p>

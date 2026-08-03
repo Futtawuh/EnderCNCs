@@ -70,15 +70,15 @@ Every machine is slightly different: frame size, stepper drivers, firmware, and 
 
 
 <p align="center">
-  <a href="/EnderCNCs/fusion360" class="md-button md-button--primary">
+  <a href="/EnderCNCs/cad/fusion360" class="md-button md-button--primary">
     Fusion 360 →
   </a>
 
-  <a href="/EnderCNCs/freecad" class="md-button md-button--primary">
+  <a href="/EnderCNCs/cad/freecad" class="md-button md-button--primary">
     FreeCAD →
   </a>
 
-  <a href="/EnderCNCs/kirimoto" class="md-button md-button--primary">
+  <a href="/EnderCNCs/cad/kirimoto" class="md-button md-button--primary">
     Kiri:moto →
   </a>
 </p>

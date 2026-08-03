@@ -23,13 +23,6 @@ This chapter covers assembling the carriage, mounting motors, bearings, and spac
 | 4pc   | 32.60mm Printed Spacer  | Printed  |                              |
 | 8pc   | M3x10 BHSC              | Ender3   |                              |
 
----
-
-## Assembly Exploded
-
-For reference only, this will be explained step by step.
-
-![Exploded Assembly](images/carriage_info.webp)
 
 ---
 
@@ -98,7 +91,7 @@ For reference only, this will be explained step by step.
 After completing these steps, your start assembling the **Carriage Assembly**.
 
 <p align="center">
-  <a href="/EnderCNCs/carriage_assembly" class="md-button md-button--primary">
+  <a href="carriage_assembly" class="md-button md-button--primary">
     Continue to Carriage Assembly →
   </a>
 </p>
