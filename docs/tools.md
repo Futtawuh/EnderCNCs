@@ -76,7 +76,7 @@ You will drill an access hole that allows a hex driver to reach the internal fas
 
 Accuracy here prevents misalignment and frame twist.
 
-![Blind Joint Example](images/447661189-a60326e6-98f7-465b-b56b-e87a3059d8f2.png)
+![Blind Joint Example](models/vwheel/images/447661189-a60326e6-98f7-465b-b56b-e87a3059d8f2.png)
 
 ---
 

@@ -18,7 +18,7 @@ jobs:
       - name: Fetch serials from bot API
         run: |
           curl -f --max-time 15 http://89.251.18.227:3000/serials \
-            -o docs/serials.json
+            -o docs/serials.json || echo "API offline, skipping sync, will try again later, using existing serials.json"
 
       - name: Commit if changed
         run: |

@@ -27,7 +27,7 @@ jobs:
       # 3️⃣ Install dependencies
       - name: Install MkDocs & Material + Plugins
         run: |
-          pip install mkdocs-material
+          pip install "mkdocs<2.0" mkdocs-material
 
       # 4️⃣ Build the MkDocs site
       - name: Build MkDocs site

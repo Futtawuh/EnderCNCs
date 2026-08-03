@@ -10,7 +10,7 @@
 
 **Print orientation to avoid supports:**
 
-![image](images/537732031-4d2797a6-66be-467e-985a-3e145492814d.png)
+![image](models/vwheel/images/537732031-4d2797a6-66be-467e-985a-3e145492814d.png)
 
 ## Other parts 
 
@@ -28,7 +28,7 @@
 
 ### [Through hole Jig](https://www.printables.com/model/815359-2020-extrusion-blind-joint-drilling-jig)
 
-![image](images/img_6343.png)
+![image](models/vwheel/images/img_6343.png)
 
 ### [Pully Extractor](https://www.printables.com/model/230013-press-fit-pulley-extractor-for-nema-17)
 

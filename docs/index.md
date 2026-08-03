@@ -1,7 +1,7 @@
 # Ender 3 CNC Build Manual
 
 !!! warning "Early Release"
-    This is Version 1 of the manual. Expect frequent iterative improvements.
+    This is a prerelease of the manual. Expect iterative improvements.
     
 **Converting a Proven Motion Platform into a Precision CNC System**
 
@@ -71,8 +71,8 @@ This build rewards patience and mechanical understanding.
 
 ## What You’ll Build
 
-![Ender3CNC Build 1](images/447669414-df2746be-0fd8-4aa2-b609-81031dc4cfa2.png)
-![Ender3CNC Build 2](images/447669480-43854a83-0945-4e80-aa53-9ccf8a7e4b0b.png)
+![Ender3CNC Build 1](models/vwheel/images/447669414-df2746be-0fd8-4aa2-b609-81031dc4cfa2.png)
+![Ender3CNC Build 2](models/vwheel/images/447669480-43854a83-0945-4e80-aa53-9ccf8a7e4b0b.png)
 
 !!! success "Build Gallery"
     See user builds in the [Gallery](Builds/gallery.md)
