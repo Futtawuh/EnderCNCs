@@ -12,25 +12,31 @@
         <meta name="author" content="John Clark">
       
       
+        <link rel="canonical" href="https://futtawuh.github.io/EnderCNCs/models/vwheel/carriage_assembly/">
       
+      
+        <link rel="prev" href="../carriage_prep/">
+      
+      
+        <link rel="next" href="../gantry_ends/">
       
       
         
       
       
-      <link rel="icon" href="/EnderCNCs/assets/images/favicon.png">
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
     
     
       
-        <title>Ender 3 CNC Build Manual</title>
+        <title>Carriage - Ender 3 CNC Build Manual</title>
       
     
     
-      <link rel="stylesheet" href="/EnderCNCs/assets/stylesheets/main.ec1eaa64.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.ec1eaa64.min.css">
       
         
-        <link rel="stylesheet" href="/EnderCNCs/assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -49,7 +55,7 @@
       
     
     
-    <script>__md_scope=new URL("/EnderCNCs/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -73,6 +79,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#z-carriage-assembly" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -85,7 +96,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/EnderCNCs/." title="Ender 3 CNC Build Manual" class="md-header__button md-logo" aria-label="Ender 3 CNC Build Manual" data-md-component="logo">
+    <a href="../../.." title="Ender 3 CNC Build Manual" class="md-header__button md-logo" aria-label="Ender 3 CNC Build Manual" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -105,7 +116,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              Carriage
             
           </span>
         </div>
@@ -225,7 +236,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/EnderCNCs/." title="Ender 3 CNC Build Manual" class="md-nav__button md-logo" aria-label="Ender 3 CNC Build Manual" data-md-component="logo">
+    <a href="../../.." title="Ender 3 CNC Build Manual" class="md-nav__button md-logo" aria-label="Ender 3 CNC Build Manual" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -255,7 +266,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -282,7 +293,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/Builds/gallery/" class="md-nav__link">
+      <a href="../../../Builds/gallery/" class="md-nav__link">
         
   
   
@@ -373,7 +384,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/tools/" class="md-nav__link">
+      <a href="../../../tools/" class="md-nav__link">
         
   
   
@@ -401,7 +412,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/hardware/" class="md-nav__link">
+      <a href="../../../hardware/" class="md-nav__link">
         
   
   
@@ -429,7 +440,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/printed_parts/" class="md-nav__link">
+      <a href="../../../printed_parts/" class="md-nav__link">
         
   
   
@@ -457,7 +468,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/disassembly/" class="md-nav__link">
+      <a href="../../../disassembly/" class="md-nav__link">
         
   
   
@@ -485,7 +496,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/models/choosing/" class="md-nav__link">
+      <a href="../../choosing/" class="md-nav__link">
         
   
   
@@ -517,8 +528,10 @@
       
   
   
+    
   
   
+  
     
     
       
@@ -541,11 +554,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
         
           
           <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
@@ -566,7 +579,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             
@@ -581,8 +594,10 @@
                 
   
   
+    
   
   
+  
     
     
       
@@ -606,11 +621,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_1" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_1" checked>
         
           
           <label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="0">
@@ -631,7 +646,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4_1">
             <span class="md-nav__icon md-icon"></span>
             
@@ -649,7 +664,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/models/vwheel/carriage_prep/" class="md-nav__link">
+      <a href="../carriage_prep/" class="md-nav__link">
         
   
   
@@ -674,10 +689,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/EnderCNCs/models/vwheel/carriage_assembly/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Carriage
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -693,6 +735,142 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#assemble-the-xz-carriage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Assemble the X+Z Carriage
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#parts-required" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Parts Required
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bearing-choice" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bearing Choice
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Bearing Choice">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#if-you-dont-have-608z-use-the-f688z-from-the-ender-3-pro-x-axis-tensioner" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        If you dont have 608Z use the F688Z from the Ender 3 Pro X axis tensioner.
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#backplate-assembly" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Backplate Assembly
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#frontplate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Frontplate
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#assembly" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Assembly
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tips-tricks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tips &amp; Tricks
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#assembly-exploded" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Assembly Exploded
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ready-to-proceed" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ready to Proceed?
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -705,7 +883,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/models/vwheel/gantry_ends/" class="md-nav__link">
+      <a href="../gantry_ends/" class="md-nav__link">
         
   
   
@@ -733,7 +911,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/models/vwheel/frame/" class="md-nav__link">
+      <a href="../frame/" class="md-nav__link">
         
   
   
@@ -761,7 +939,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/models/vwheel/gantry/" class="md-nav__link">
+      <a href="../gantry/" class="md-nav__link">
         
   
   
@@ -789,7 +967,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/models/vwheel/belts/" class="md-nav__link">
+      <a href="../belts/" class="md-nav__link">
         
   
   
@@ -817,7 +995,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/models/vwheel/spindle/" class="md-nav__link">
+      <a href="../spindle/" class="md-nav__link">
         
   
   
@@ -906,7 +1084,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/models/comingsoon/" class="md-nav__link">
+      <a href="../../comingsoon/" class="md-nav__link">
         
   
   
@@ -995,7 +1173,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/models/comingsoon/" class="md-nav__link">
+      <a href="../../comingsoon/" class="md-nav__link">
         
   
   
@@ -1084,7 +1262,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/models/comingsoon/" class="md-nav__link">
+      <a href="../../comingsoon/" class="md-nav__link">
         
   
   
@@ -1173,7 +1351,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/models/comingsoon/" class="md-nav__link">
+      <a href="../../comingsoon/" class="md-nav__link">
         
   
   
@@ -1216,7 +1394,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/wiring/" class="md-nav__link">
+      <a href="../../../wiring/" class="md-nav__link">
         
   
   
@@ -1243,7 +1421,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/firmware/" class="md-nav__link">
+      <a href="../../../firmware/" class="md-nav__link">
         
   
   
@@ -1270,7 +1448,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/troubleshooting/" class="md-nav__link">
+      <a href="../../../troubleshooting/" class="md-nav__link">
         
   
   
@@ -1359,7 +1537,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/cad/post_processing/" class="md-nav__link">
+      <a href="../../../cad/post_processing/" class="md-nav__link">
         
   
   
@@ -1387,7 +1565,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/cad/fusion360/" class="md-nav__link">
+      <a href="../../../cad/fusion360/" class="md-nav__link">
         
   
   
@@ -1415,7 +1593,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/cad/freecad/" class="md-nav__link">
+      <a href="../../../cad/freecad/" class="md-nav__link">
         
   
   
@@ -1443,7 +1621,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/cad/kirimoto/" class="md-nav__link">
+      <a href="../../../cad/kirimoto/" class="md-nav__link">
         
   
   
@@ -1484,8 +1662,173 @@
               
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+  
+  
+
+
+<h1 id="z-carriage-assembly">Z Carriage Assembly<a class="headerlink" href="#z-carriage-assembly" title="Permanent link">&para;</a></h1>
+<p>This chapter focuses on the Z-axis carriage, bearings, and coupler alignment.</p>
+<hr />
+<h2 id="assemble-the-xz-carriage">Assemble the X+Z Carriage<a class="headerlink" href="#assemble-the-xz-carriage" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Cut Ender3 2020 extrusions to 150mm x2.  </li>
+<li>Tap M5 threads in <strong>both ends</strong> of the 150mm extrusions.  </li>
+<li>Press in bearings if not already done.  </li>
+<li>Loosely attach:</li>
+<li>Z motor coupler</li>
+<li>X motor pulley (20T)</li>
+<li>Attach both motors to their plates.  </li>
+<li>Assemble the 2020 extrusions as square and parallel as possible.  </li>
+<li>Mount the X motor carriage to the ZX carriage with wheels and spacers.  </li>
+<li>Attach the Z bottom bearing plate and Z motor plate.  </li>
+<li>Mount the MGN12 rails with carriages to the 2020 extrusions:</li>
+<li>Use a printed <strong>MGN12-&gt;2020 alignment tool</strong> to ensure straight rails.  </li>
+<li>Rails can slide into cutouts if slightly too long (max 4mm overhang).  </li>
+<li>Attach Z leadscrew nut to Z carriage.  </li>
+<li>Mount Z carriage to MGN12H carriages:<ul>
+<li>Slide up and down to check for binding. Adjust rails if necessary.  </li>
+</ul>
+</li>
+<li>Cut leadscrew to size (~180mm), double-check with your setup.  </li>
+<li>Screw leadscrew from bottom bearing to Z motor coupler and secure.  </li>
+<li>Slide the X+Z assembly on the previously cut X extrusion.</li>
+</ol>
+<h2 id="parts-required">Parts Required<a class="headerlink" href="#parts-required" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Qty</th>
+<th>Item</th>
+<th>Source</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1pc</td>
+<td>Z Carriage Plate</td>
+<td>Printed</td>
+<td>Heatset inserts required</td>
+</tr>
+<tr>
+<td>2pc</td>
+<td>M5 Locknuts</td>
+<td>Buy</td>
+<td>Press-fit into plate</td>
+</tr>
+<tr>
+<td>2pc</td>
+<td>M5x16 BHSC</td>
+<td>Buy</td>
+<td>Z-axis carriage attachment</td>
+</tr>
+<tr>
+<td>1pc</td>
+<td>Leadscrew Nut</td>
+<td>Buy</td>
+<td>M5 threaded for Z</td>
+</tr>
+<tr>
+<td>2pc</td>
+<td>MGN12H Carriages</td>
+<td>Buy</td>
+<td>For smooth linear motion</td>
+</tr>
+</tbody>
+</table>
+<h2 id="bearing-choice">Bearing Choice<a class="headerlink" href="#bearing-choice" title="Permanent link">&para;</a></h2>
+<h3 id="if-you-dont-have-608z-use-the-f688z-from-the-ender-3-pro-x-axis-tensioner">If you dont have 608Z use the F688Z from the Ender 3 Pro X axis tensioner.<a class="headerlink" href="#if-you-dont-have-608z-use-the-f688z-from-the-ender-3-pro-x-axis-tensioner" title="Permanent link">&para;</a></h3>
+<p><img alt="bearing_choice" src="../images/447661599-d841fb1d-110e-4ea4-9d34-9ba2e50c555c.png" /></p>
+<hr />
+<h2 id="backplate-assembly">Backplate Assembly<a class="headerlink" href="#backplate-assembly" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Insert heatset inserts into Z carriage plate.  </li>
+<li>Press-fit M5 locknuts into their designated holes.  </li>
+</ol>
+<p><img alt="image" src="../images/tool1.png" /></p>
+<ol>
+<li>Attach M5 Locknuts and Bolts to Z carriage plate.</li>
+</ol>
+<p><img alt="image" src="../images/tool2.png" /></p>
+<ol>
+<li>Assemble X gantry motor plate</li>
+</ol>
+<p><img alt="image" src="../images/tool3.png" /></p>
+<ol>
+<li>Attach X gantry motor plate to xz gantry plate</li>
+</ol>
+<p><img alt="image" src="../images/tool4.png" /></p>
+<hr />
+<h2 id="frontplate">Frontplate<a class="headerlink" href="#frontplate" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Attach motor to top plate</li>
+<li>Loosely attach coupler to Z motor shaft.  </li>
+</ol>
+<p><img alt="image" src="../images/tool5.png" /></p>
+<ol>
+<li>Attach bottom plate to extrusion</li>
+<li>Attach 2020 Extrusion to rails  </li>
+<li>Attach MGN12H carriages to the 2020 extrusions if not already done.  </li>
+<li>Slide Z carriage onto MGN12H carriages.  </li>
+</ol>
+<p><img alt="Z Carriage Assembly" src="../images/tool6.png" /></p>
+<ol>
+<li>Attach leadscrew nut to Z carriage.  </li>
+<li>Attach z top to extrusion by inserting leadscrew from bottom bearing to coupler:</li>
+<li>Ensure smooth rotation by hand.  </li>
+<li>Adjust alignment if carriage binds on rails.</li>
+</ol>
+<p><img alt="Z Carriage Assembly" src="../images/tool7.png" /></p>
+<hr />
+<h2 id="assembly">Assembly<a class="headerlink" href="#assembly" title="Permanent link">&para;</a></h2>
+<p>Attach Backplate to Extrusion and top screws</p>
+<p><img alt="image" src="../images/449552007-73a1652d-c0c2-4bb7-a2be-acec6fe921a0.png" /></p>
+<hr />
+<h2 id="tips-tricks">Tips &amp; Tricks<a class="headerlink" href="#tips-tricks" title="Permanent link">&para;</a></h2>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Test the Z-axis movement <strong>manually</strong> before wiring the motors.<br />
+Smooth motion now saves time troubleshooting later.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Avoid forcing the leadscrew; misalignment can strip threads in the coupler.</p>
+</div>
+<hr />
+<p><img alt="X+Z Carriage" src="../images/449552147-77d2ba43-ecc7-4f77-92b8-ad5840bc0d95.png" /></p>
+<p><img alt="X+Z Carriage" src="../images/449552231-81e4dd24-6af0-45d9-aec4-4afe465f2943.png" /></p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Ender3 aluminum spacers are 8.35mm. If using 8mm spacers from another source, use the <strong>printed lower middle spacer</strong> to maintain alignment.</p>
+</div>
+<hr />
+<h2 id="assembly-exploded">Assembly Exploded<a class="headerlink" href="#assembly-exploded" title="Permanent link">&para;</a></h2>
+<p>For reference only, this will be explained step by step.</p>
+<p><img alt="Exploded Assembly" src="../images/carriage_info.webp" /></p>
+<hr />
+<h2 id="ready-to-proceed">Ready to Proceed?<a class="headerlink" href="#ready-to-proceed" title="Permanent link">&para;</a></h2>
+<p>After completing these steps, your ready for <strong>Gantry Assembly</strong>.</p>
+<p align="center">
+  <a href="gantry_ends" class="md-button md-button--primary">
+    Continue to Gantry Assembly →
+  </a>
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
               </article>
             </div>
           
@@ -1538,10 +1881,10 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "/EnderCNCs/", "features": ["navigation.instant", "navigation.sections", "navigation.indexes", "toc.integrate", "search.highlight", "search.suggest"], "search": "/EnderCNCs/assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.instant", "navigation.sections", "navigation.indexes", "toc.integrate", "search.highlight", "search.suggest"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="/EnderCNCs/assets/javascripts/bundle.d7400e89.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.d7400e89.min.js"></script>
       
     
   </body>

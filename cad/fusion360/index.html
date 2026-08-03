@@ -12,25 +12,31 @@
         <meta name="author" content="John Clark">
       
       
+        <link rel="canonical" href="https://futtawuh.github.io/EnderCNCs/cad/fusion360/">
       
+      
+        <link rel="prev" href="../post_processing/">
+      
+      
+        <link rel="next" href="../freecad/">
       
       
         
       
       
-      <link rel="icon" href="/EnderCNCs/assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
     
     
       
-        <title>Ender 3 CNC Build Manual</title>
+        <title>Fusion360 - Ender 3 CNC Build Manual</title>
       
     
     
-      <link rel="stylesheet" href="/EnderCNCs/assets/stylesheets/main.ec1eaa64.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
       
         
-        <link rel="stylesheet" href="/EnderCNCs/assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -49,7 +55,7 @@
       
     
     
-    <script>__md_scope=new URL("/EnderCNCs/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -73,6 +79,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#fusion-360-klipperized-post-processor" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -85,7 +96,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/EnderCNCs/." title="Ender 3 CNC Build Manual" class="md-header__button md-logo" aria-label="Ender 3 CNC Build Manual" data-md-component="logo">
+    <a href="../.." title="Ender 3 CNC Build Manual" class="md-header__button md-logo" aria-label="Ender 3 CNC Build Manual" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -105,7 +116,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              Fusion360
             
           </span>
         </div>
@@ -225,7 +236,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/EnderCNCs/." title="Ender 3 CNC Build Manual" class="md-nav__button md-logo" aria-label="Ender 3 CNC Build Manual" data-md-component="logo">
+    <a href="../.." title="Ender 3 CNC Build Manual" class="md-nav__button md-logo" aria-label="Ender 3 CNC Build Manual" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -255,7 +266,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -282,7 +293,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/Builds/gallery/" class="md-nav__link">
+      <a href="../../Builds/gallery/" class="md-nav__link">
         
   
   
@@ -373,7 +384,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/tools/" class="md-nav__link">
+      <a href="../../tools/" class="md-nav__link">
         
   
   
@@ -401,7 +412,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/hardware/" class="md-nav__link">
+      <a href="../../hardware/" class="md-nav__link">
         
   
   
@@ -429,7 +440,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/printed_parts/" class="md-nav__link">
+      <a href="../../printed_parts/" class="md-nav__link">
         
   
   
@@ -457,7 +468,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/disassembly/" class="md-nav__link">
+      <a href="../../disassembly/" class="md-nav__link">
         
   
   
@@ -485,7 +496,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/models/choosing/" class="md-nav__link">
+      <a href="../../models/choosing/" class="md-nav__link">
         
   
   
@@ -649,7 +660,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/models/vwheel/carriage_prep/" class="md-nav__link">
+      <a href="../../models/vwheel/carriage_prep/" class="md-nav__link">
         
   
   
@@ -677,7 +688,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/models/vwheel/carriage_assembly/" class="md-nav__link">
+      <a href="../../models/vwheel/carriage_assembly/" class="md-nav__link">
         
   
   
@@ -705,7 +716,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/models/vwheel/gantry_ends/" class="md-nav__link">
+      <a href="../../models/vwheel/gantry_ends/" class="md-nav__link">
         
   
   
@@ -733,7 +744,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/models/vwheel/frame/" class="md-nav__link">
+      <a href="../../models/vwheel/frame/" class="md-nav__link">
         
   
   
@@ -761,7 +772,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/models/vwheel/gantry/" class="md-nav__link">
+      <a href="../../models/vwheel/gantry/" class="md-nav__link">
         
   
   
@@ -789,7 +800,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/models/vwheel/belts/" class="md-nav__link">
+      <a href="../../models/vwheel/belts/" class="md-nav__link">
         
   
   
@@ -817,7 +828,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/models/vwheel/spindle/" class="md-nav__link">
+      <a href="../../models/vwheel/spindle/" class="md-nav__link">
         
   
   
@@ -906,7 +917,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/models/comingsoon/" class="md-nav__link">
+      <a href="../../models/comingsoon/" class="md-nav__link">
         
   
   
@@ -995,7 +1006,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/models/comingsoon/" class="md-nav__link">
+      <a href="../../models/comingsoon/" class="md-nav__link">
         
   
   
@@ -1084,7 +1095,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/models/comingsoon/" class="md-nav__link">
+      <a href="../../models/comingsoon/" class="md-nav__link">
         
   
   
@@ -1173,7 +1184,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/models/comingsoon/" class="md-nav__link">
+      <a href="../../models/comingsoon/" class="md-nav__link">
         
   
   
@@ -1216,7 +1227,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/wiring/" class="md-nav__link">
+      <a href="../../wiring/" class="md-nav__link">
         
   
   
@@ -1243,7 +1254,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/firmware/" class="md-nav__link">
+      <a href="../../firmware/" class="md-nav__link">
         
   
   
@@ -1270,7 +1281,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/troubleshooting/" class="md-nav__link">
+      <a href="../../troubleshooting/" class="md-nav__link">
         
   
   
@@ -1294,8 +1305,10 @@
       
   
   
+    
   
   
+  
     
     
       
@@ -1316,11 +1329,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" checked>
         
           
           <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
@@ -1341,7 +1354,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_8">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1359,7 +1372,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/cad/post_processing/" class="md-nav__link">
+      <a href="../post_processing/" class="md-nav__link">
         
   
   
@@ -1384,10 +1397,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/EnderCNCs/cad/fusion360/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fusion360
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -1403,6 +1443,93 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#credits" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Credits
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Installation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Installation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#usage-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Usage Notes
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recommended-workflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Recommended Workflow
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Recommended Workflow">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fusion360-video-tutorial" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fusion360 Video Tutorial
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1415,7 +1542,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/cad/freecad/" class="md-nav__link">
+      <a href="../freecad/" class="md-nav__link">
         
   
   
@@ -1443,7 +1570,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/cad/kirimoto/" class="md-nav__link">
+      <a href="../kirimoto/" class="md-nav__link">
         
   
   
@@ -1484,8 +1611,86 @@
               
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+  
+  
+
+
+<h1 id="fusion-360-klipperized-post-processor">Fusion 360 Klipperized post processor<a class="headerlink" href="#fusion-360-klipperized-post-processor" title="Permanent link">&para;</a></h1>
+<p>Transform your Fusion 360 CAM workflow into a CNC-ready G-code workflow compatible with Klipper. This guide shows how to install and use the <strong>Klipperized post processor</strong> created for MPCNC and similar machines.</p>
+<h2 id="credits">Credits<a class="headerlink" href="#credits" title="Permanent link">&para;</a></h2>
+<p>Post processor by <a href="https://github.com/Zergie/mpcnc_post_processor">Zergie/mpcnc_post_processor</a>– thanks for making Klipper integration possible!</p>
+<h2 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">&para;</a></h2>
+<ol>
+<li>
+<p><strong>Download the Post Processor</strong>
+   Download the <code>.cps</code> file from the GitHub repository linked above.</p>
+</li>
+<li>
+<p><strong>Open Fusion 360</strong>
+   Navigate to the <strong>Manufacture</strong> workspace.</p>
+</li>
+<li>
+<p><strong>Import the Post Processor</strong></p>
+</li>
+<li>
+<p>Click <strong>Post Process</strong> in the toolbar.</p>
+</li>
+<li>Click the <strong>folder icon</strong> to select a post from the library.</li>
+<li>Click <strong>Import</strong>.</li>
+<li>
+<p>Browse to your downloaded <code>.cps</code> file and click <strong>Select</strong>.</p>
+</li>
+<li>
+<p><strong>Confirmation</strong>
+   Once imported, your post processor will appear in the list of available posts.</p>
+</li>
+</ol>
+<p><img alt="image" src="https://github.com/user-attachments/assets/c243b043-7aa4-4c08-ac71-b8347e3aa145" /></p>
+<hr />
+<h3 id="usage-notes">Usage Notes<a class="headerlink" href="#usage-notes" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Do NOT select "upload and run"</strong>
+        This will immediately start your CNC job — risky if your setup isn’t ready.</li>
+<li><strong>Avoid setting G1 moves to G0 rapids at first</strong>
+        Travel moves will become extremely fast. Familiarize yourself with your machine before enabling.</li>
+</ul>
+<p><img alt="image" src="https://github.com/user-attachments/assets/a0539942-e08f-40a8-9d20-c747a97e7170" /></p>
+<ul>
+<li>
+<p>Double-check toolpaths and clearance heights before running a job.</p>
+</li>
+<li>
+<p>Always simulate in Fusion 360 first to prevent collisions.</p>
+</li>
+</ul>
+<hr />
+<h2 id="recommended-workflow">Recommended Workflow<a class="headerlink" href="#recommended-workflow" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Prepare your 3D model or 2D sketch.</li>
+<li>Generate toolpaths using <strong>2.5D or 3D milling operations</strong>.</li>
+<li>Select the <strong>Klipperized post processor</strong> for your CNC machine.</li>
+<li>Export the G-code.</li>
+<li>Load into your Klipper interface (e.g., Mainsail, Fluidd) and test with small movements first.</li>
+</ol>
+<hr />
+<h3 id="fusion360-video-tutorial">Fusion360 Video Tutorial<a class="headerlink" href="#fusion360-video-tutorial" title="Permanent link">&para;</a></h3>
+<p><a href="https://www.youtube.com/watch?v=WxLeKf4OOfY"><img alt="Watch the video" src="https://img.youtube.com/vi/WxLeKf4OOfY/0.jpg" /></a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
               </article>
             </div>
           
@@ -1538,10 +1743,10 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "/EnderCNCs/", "features": ["navigation.instant", "navigation.sections", "navigation.indexes", "toc.integrate", "search.highlight", "search.suggest"], "search": "/EnderCNCs/assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.instant", "navigation.sections", "navigation.indexes", "toc.integrate", "search.highlight", "search.suggest"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="/EnderCNCs/assets/javascripts/bundle.d7400e89.min.js"></script>
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
       
     
   </body>

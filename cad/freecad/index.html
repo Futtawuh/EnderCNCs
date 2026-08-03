@@ -12,25 +12,31 @@
         <meta name="author" content="John Clark">
       
       
+        <link rel="canonical" href="https://futtawuh.github.io/EnderCNCs/cad/freecad/">
       
+      
+        <link rel="prev" href="../fusion360/">
+      
+      
+        <link rel="next" href="../kirimoto/">
       
       
         
       
       
-      <link rel="icon" href="/EnderCNCs/assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
     
     
       
-        <title>Ender 3 CNC Build Manual</title>
+        <title>Freecad - Ender 3 CNC Build Manual</title>
       
     
     
-      <link rel="stylesheet" href="/EnderCNCs/assets/stylesheets/main.ec1eaa64.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
       
         
-        <link rel="stylesheet" href="/EnderCNCs/assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -49,7 +55,7 @@
       
     
     
-    <script>__md_scope=new URL("/EnderCNCs/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -73,6 +79,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#freecad-overview" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -85,7 +96,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/EnderCNCs/." title="Ender 3 CNC Build Manual" class="md-header__button md-logo" aria-label="Ender 3 CNC Build Manual" data-md-component="logo">
+    <a href="../.." title="Ender 3 CNC Build Manual" class="md-header__button md-logo" aria-label="Ender 3 CNC Build Manual" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -105,7 +116,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              Freecad
             
           </span>
         </div>
@@ -225,7 +236,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/EnderCNCs/." title="Ender 3 CNC Build Manual" class="md-nav__button md-logo" aria-label="Ender 3 CNC Build Manual" data-md-component="logo">
+    <a href="../.." title="Ender 3 CNC Build Manual" class="md-nav__button md-logo" aria-label="Ender 3 CNC Build Manual" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -255,7 +266,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -282,7 +293,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/Builds/gallery/" class="md-nav__link">
+      <a href="../../Builds/gallery/" class="md-nav__link">
         
   
   
@@ -373,7 +384,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/tools/" class="md-nav__link">
+      <a href="../../tools/" class="md-nav__link">
         
   
   
@@ -401,7 +412,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/hardware/" class="md-nav__link">
+      <a href="../../hardware/" class="md-nav__link">
         
   
   
@@ -429,7 +440,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/printed_parts/" class="md-nav__link">
+      <a href="../../printed_parts/" class="md-nav__link">
         
   
   
@@ -457,7 +468,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/disassembly/" class="md-nav__link">
+      <a href="../../disassembly/" class="md-nav__link">
         
   
   
@@ -485,7 +496,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/models/choosing/" class="md-nav__link">
+      <a href="../../models/choosing/" class="md-nav__link">
         
   
   
@@ -649,7 +660,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/models/vwheel/carriage_prep/" class="md-nav__link">
+      <a href="../../models/vwheel/carriage_prep/" class="md-nav__link">
         
   
   
@@ -677,7 +688,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/models/vwheel/carriage_assembly/" class="md-nav__link">
+      <a href="../../models/vwheel/carriage_assembly/" class="md-nav__link">
         
   
   
@@ -705,7 +716,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/models/vwheel/gantry_ends/" class="md-nav__link">
+      <a href="../../models/vwheel/gantry_ends/" class="md-nav__link">
         
   
   
@@ -733,7 +744,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/models/vwheel/frame/" class="md-nav__link">
+      <a href="../../models/vwheel/frame/" class="md-nav__link">
         
   
   
@@ -761,7 +772,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/models/vwheel/gantry/" class="md-nav__link">
+      <a href="../../models/vwheel/gantry/" class="md-nav__link">
         
   
   
@@ -789,7 +800,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/models/vwheel/belts/" class="md-nav__link">
+      <a href="../../models/vwheel/belts/" class="md-nav__link">
         
   
   
@@ -817,7 +828,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/models/vwheel/spindle/" class="md-nav__link">
+      <a href="../../models/vwheel/spindle/" class="md-nav__link">
         
   
   
@@ -906,7 +917,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/models/comingsoon/" class="md-nav__link">
+      <a href="../../models/comingsoon/" class="md-nav__link">
         
   
   
@@ -995,7 +1006,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/models/comingsoon/" class="md-nav__link">
+      <a href="../../models/comingsoon/" class="md-nav__link">
         
   
   
@@ -1084,7 +1095,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/models/comingsoon/" class="md-nav__link">
+      <a href="../../models/comingsoon/" class="md-nav__link">
         
   
   
@@ -1173,7 +1184,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/models/comingsoon/" class="md-nav__link">
+      <a href="../../models/comingsoon/" class="md-nav__link">
         
   
   
@@ -1216,7 +1227,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/wiring/" class="md-nav__link">
+      <a href="../../wiring/" class="md-nav__link">
         
   
   
@@ -1243,7 +1254,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/firmware/" class="md-nav__link">
+      <a href="../../firmware/" class="md-nav__link">
         
   
   
@@ -1270,7 +1281,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/troubleshooting/" class="md-nav__link">
+      <a href="../../troubleshooting/" class="md-nav__link">
         
   
   
@@ -1294,8 +1305,10 @@
       
   
   
+    
   
   
+  
     
     
       
@@ -1316,11 +1329,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" checked>
         
           
           <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
@@ -1341,7 +1354,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_8">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1359,7 +1372,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/cad/post_processing/" class="md-nav__link">
+      <a href="../post_processing/" class="md-nav__link">
         
   
   
@@ -1387,7 +1400,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/cad/fusion360/" class="md-nav__link">
+      <a href="../fusion360/" class="md-nav__link">
         
   
   
@@ -1412,10 +1425,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/EnderCNCs/cad/freecad/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Freecad
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -1431,6 +1471,126 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#why-freecad" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why FreeCAD?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recommended-workflows" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Recommended Workflows
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Recommended Workflows">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-adjust-existing-parts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Adjust Existing Parts
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-create-custom-parts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Create Custom Parts
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-verify-fit-and-assembly" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Verify Fit and Assembly
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recommended-settings-for-ender3cnc-parts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Recommended Settings for Ender3CNC Parts
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Recommended Settings for Ender3CNC Parts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#freecad-video-tutorial" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        FreeCAD Video Tutorial
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resources
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1443,7 +1603,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/cad/kirimoto/" class="md-nav__link">
+      <a href="../kirimoto/" class="md-nav__link">
         
   
   
@@ -1484,8 +1644,83 @@
               
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+  
+  
+
+
+<h1 id="freecad-overview">FreeCAD Overview<a class="headerlink" href="#freecad-overview" title="Permanent link">&para;</a></h1>
+<p>FreeCAD is a free, open-source parametric CAD software that lets you create and modify 3D models with precision. For the Ender 3 CNC project, FreeCAD is used to design custom parts, adjust dimensions for your frame, and generate models for 3D printing.</p>
+<p>Whether you’re resizing a carriage plate, designing a clamp, or checking fitment, FreeCAD provides the flexibility to make your CNC build repeatable and accurate.</p>
+<hr />
+<h2 id="why-freecad">Why FreeCAD?<a class="headerlink" href="#why-freecad" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Parametric Design:</strong> Modify any dimension or feature without starting over.</li>
+<li><strong>Community Driven:</strong> Active development and many tutorials.</li>
+<li><strong>Cross-Platform:</strong> Runs on Linux, Windows, and macOS.</li>
+<li><strong>File Export Options:</strong> Supports STEP, STL, DXF, and more — ideal for CNC and 3D printing workflows.</li>
+</ul>
+<hr />
+<h2 id="recommended-workflows">Recommended Workflows<a class="headerlink" href="#recommended-workflows" title="Permanent link">&para;</a></h2>
+<h3 id="1-adjust-existing-parts">1. Adjust Existing Parts<a class="headerlink" href="#1-adjust-existing-parts" title="Permanent link">&para;</a></h3>
+<p>Many Ender3CNC components are already designed in FreeCAD. You can open the <code>.FCStd</code> files and tweak dimensions:</p>
+<ul>
+<li>Carriage spacing</li>
+<li>Clamp thickness</li>
+<li>Pulley clearance</li>
+<li>Mounting hole positions</li>
+</ul>
+<p><strong>Tip:</strong> Always save a backup of the original before making changes.</p>
+<hr />
+<h3 id="2-create-custom-parts">2. Create Custom Parts<a class="headerlink" href="#2-create-custom-parts" title="Permanent link">&para;</a></h3>
+<p>Need a new part for your CNC? FreeCAD lets you:</p>
+<ol>
+<li>Sketch 2D geometry on a plane.</li>
+<li>Extrude, pad, or cut features to create a 3D model.</li>
+<li>Add mounting holes, fillets, or chamfers for strength and fit.</li>
+<li>Export to <code>.STL</code> for 3D printing or <code>.STEP</code> for CNC machining.</li>
+</ol>
+<hr />
+<h3 id="3-verify-fit-and-assembly">3. Verify Fit and Assembly<a class="headerlink" href="#3-verify-fit-and-assembly" title="Permanent link">&para;</a></h3>
+<p>Use FreeCAD’s <strong>Assembly Workbench</strong> or simply check parts visually:</p>
+<ul>
+<li>Ensure rails and carriages align.</li>
+<li>Confirm belt paths are unobstructed.</li>
+<li>Check that the Z probe or endstops have proper clearance.</li>
+</ul>
+<hr />
+<h2 id="recommended-settings-for-ender3cnc-parts">Recommended Settings for Ender3CNC Parts<a class="headerlink" href="#recommended-settings-for-ender3cnc-parts" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Units: <strong>Millimeters</strong></li>
+<li>Snap increments: <strong>0.1 mm</strong> for fine adjustments</li>
+<li>Export resolution: High for smooth 3D printing surfaces</li>
+</ul>
+<hr />
+<h3 id="freecad-video-tutorial">FreeCAD Video Tutorial<a class="headerlink" href="#freecad-video-tutorial" title="Permanent link">&para;</a></h3>
+<p>If you add the mkdocs-video plugin, you can embed a demo video of adjusting parts:</p>
+<p><a href="https://www.youtube.com/watch?v=0VAIXvHTKVY"><img alt="FreeCAD CAM Tutorial" src="https://img.youtube.com/vi/0VAIXvHTKVY/0.jpg" /></a></p>
+<hr />
+<h2 id="resources">Resources<a class="headerlink" href="#resources" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://www.freecadweb.org">FreeCAD Official Website</a></li>
+<li><a href="https://forum.freecadweb.org">FreeCAD Forum</a></li>
+<li><a href="https://www.youtube.com/results?search_query=freecad+tutorial">FreeCAD Tutorials on YouTube</a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
               </article>
             </div>
           
@@ -1538,10 +1773,10 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "/EnderCNCs/", "features": ["navigation.instant", "navigation.sections", "navigation.indexes", "toc.integrate", "search.highlight", "search.suggest"], "search": "/EnderCNCs/assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.instant", "navigation.sections", "navigation.indexes", "toc.integrate", "search.highlight", "search.suggest"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="/EnderCNCs/assets/javascripts/bundle.d7400e89.min.js"></script>
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
       
     
   </body>

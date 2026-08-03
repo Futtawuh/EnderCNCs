@@ -12,25 +12,31 @@
         <meta name="author" content="John Clark">
       
       
+        <link rel="canonical" href="https://futtawuh.github.io/EnderCNCs/models/vwheel/spindle/">
       
+      
+        <link rel="prev" href="../belts/">
+      
+      
+        <link rel="next" href="../../comingsoon/">
       
       
         
       
       
-      <link rel="icon" href="/EnderCNCs/assets/images/favicon.png">
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
     
     
       
-        <title>Ender 3 CNC Build Manual</title>
+        <title>Spindle - Ender 3 CNC Build Manual</title>
       
     
     
-      <link rel="stylesheet" href="/EnderCNCs/assets/stylesheets/main.ec1eaa64.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.ec1eaa64.min.css">
       
         
-        <link rel="stylesheet" href="/EnderCNCs/assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -49,7 +55,7 @@
       
     
     
-    <script>__md_scope=new URL("/EnderCNCs/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -73,6 +79,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#dremel-clamp" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -85,7 +96,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/EnderCNCs/." title="Ender 3 CNC Build Manual" class="md-header__button md-logo" aria-label="Ender 3 CNC Build Manual" data-md-component="logo">
+    <a href="../../.." title="Ender 3 CNC Build Manual" class="md-header__button md-logo" aria-label="Ender 3 CNC Build Manual" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -105,7 +116,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              Spindle
             
           </span>
         </div>
@@ -225,7 +236,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/EnderCNCs/." title="Ender 3 CNC Build Manual" class="md-nav__button md-logo" aria-label="Ender 3 CNC Build Manual" data-md-component="logo">
+    <a href="../../.." title="Ender 3 CNC Build Manual" class="md-nav__button md-logo" aria-label="Ender 3 CNC Build Manual" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -255,7 +266,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -282,7 +293,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/Builds/gallery/" class="md-nav__link">
+      <a href="../../../Builds/gallery/" class="md-nav__link">
         
   
   
@@ -373,7 +384,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/tools/" class="md-nav__link">
+      <a href="../../../tools/" class="md-nav__link">
         
   
   
@@ -401,7 +412,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/hardware/" class="md-nav__link">
+      <a href="../../../hardware/" class="md-nav__link">
         
   
   
@@ -429,7 +440,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/printed_parts/" class="md-nav__link">
+      <a href="../../../printed_parts/" class="md-nav__link">
         
   
   
@@ -457,7 +468,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/disassembly/" class="md-nav__link">
+      <a href="../../../disassembly/" class="md-nav__link">
         
   
   
@@ -485,7 +496,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/models/choosing/" class="md-nav__link">
+      <a href="../../choosing/" class="md-nav__link">
         
   
   
@@ -517,8 +528,10 @@
       
   
   
+    
   
   
+  
     
     
       
@@ -541,11 +554,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
         
           
           <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
@@ -566,7 +579,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             
@@ -581,8 +594,10 @@
                 
   
   
+    
   
   
+  
     
     
       
@@ -606,11 +621,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_1" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_1" checked>
         
           
           <label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="0">
@@ -631,7 +646,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4_1">
             <span class="md-nav__icon md-icon"></span>
             
@@ -649,7 +664,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/models/vwheel/carriage_prep/" class="md-nav__link">
+      <a href="../carriage_prep/" class="md-nav__link">
         
   
   
@@ -677,7 +692,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/models/vwheel/carriage_assembly/" class="md-nav__link">
+      <a href="../carriage_assembly/" class="md-nav__link">
         
   
   
@@ -705,7 +720,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/models/vwheel/gantry_ends/" class="md-nav__link">
+      <a href="../gantry_ends/" class="md-nav__link">
         
   
   
@@ -733,7 +748,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/models/vwheel/frame/" class="md-nav__link">
+      <a href="../frame/" class="md-nav__link">
         
   
   
@@ -761,7 +776,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/models/vwheel/gantry/" class="md-nav__link">
+      <a href="../gantry/" class="md-nav__link">
         
   
   
@@ -789,7 +804,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/models/vwheel/belts/" class="md-nav__link">
+      <a href="../belts/" class="md-nav__link">
         
   
   
@@ -814,10 +829,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/EnderCNCs/models/vwheel/spindle/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Spindle
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -833,6 +875,76 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-parts-required" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Parts Required
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-spindle-dremel-clamp-installation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Spindle / Dremel Clamp Installation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Spindle / Dremel Clamp Installation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tips
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ready-to-proceed" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ready to Proceed?
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -906,7 +1018,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/models/comingsoon/" class="md-nav__link">
+      <a href="../../comingsoon/" class="md-nav__link">
         
   
   
@@ -995,7 +1107,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/models/comingsoon/" class="md-nav__link">
+      <a href="../../comingsoon/" class="md-nav__link">
         
   
   
@@ -1084,7 +1196,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/models/comingsoon/" class="md-nav__link">
+      <a href="../../comingsoon/" class="md-nav__link">
         
   
   
@@ -1173,7 +1285,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/models/comingsoon/" class="md-nav__link">
+      <a href="../../comingsoon/" class="md-nav__link">
         
   
   
@@ -1216,7 +1328,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/wiring/" class="md-nav__link">
+      <a href="../../../wiring/" class="md-nav__link">
         
   
   
@@ -1243,7 +1355,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/firmware/" class="md-nav__link">
+      <a href="../../../firmware/" class="md-nav__link">
         
   
   
@@ -1270,7 +1382,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/troubleshooting/" class="md-nav__link">
+      <a href="../../../troubleshooting/" class="md-nav__link">
         
   
   
@@ -1359,7 +1471,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/cad/post_processing/" class="md-nav__link">
+      <a href="../../../cad/post_processing/" class="md-nav__link">
         
   
   
@@ -1387,7 +1499,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/cad/fusion360/" class="md-nav__link">
+      <a href="../../../cad/fusion360/" class="md-nav__link">
         
   
   
@@ -1415,7 +1527,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/cad/freecad/" class="md-nav__link">
+      <a href="../../../cad/freecad/" class="md-nav__link">
         
   
   
@@ -1443,7 +1555,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/EnderCNCs/cad/kirimoto/" class="md-nav__link">
+      <a href="../../../cad/kirimoto/" class="md-nav__link">
         
   
   
@@ -1484,8 +1596,82 @@
               
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+  
+  
+
+
+<h1 id="dremel-clamp">Dremel Clamp<a class="headerlink" href="#dremel-clamp" title="Permanent link">&para;</a></h1>
+<p>This chapter covers attaching your spindle or Dremel clamp.</p>
+<hr />
+<h2 id="1-parts-required">1. Parts Required<a class="headerlink" href="#1-parts-required" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Qty</th>
+<th>Item</th>
+<th>Source</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4pc</td>
+<td>M5x10</td>
+<td>Buy</td>
+<td>Some may be spare from Ender3</td>
+</tr>
+<tr>
+<td>1pc</td>
+<td>Dremel or Ø52–65mm Clamp</td>
+<td>Buy/Printed</td>
+<td>Depends on spindle choice</td>
+</tr>
+</tbody>
+</table>
+<h2 id="2-spindle-dremel-clamp-installation">2. Spindle / Dremel Clamp Installation<a class="headerlink" href="#2-spindle-dremel-clamp-installation" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Choose the clamp compatible with your spindle/Dremel.  </li>
+<li>Attach the clamp to the X carriage plate using M3 or M5 screws as per your design.  </li>
+<li>Slide spindle or Dremel into the clamp.  </li>
+<li>Adjust the height and secure tightly.  </li>
+</ol>
+<p><img alt="Dremel Clamp" src="../images/471677248-abeddd62-0fa9-4661-8faf-852c7a49ba65.png" /></p>
+<p><img alt="Spindle Clamp" src="../images/471677474-ad378b98-c385-4a31-9faf-c659c8fad4c1.png" /></p>
+<hr />
+<h3 id="tips">Tips<a class="headerlink" href="#tips" title="Permanent link">&para;</a></h3>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>If using a Dremel, you may need to slightly modify the printed clamp to fit snugly.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Ensure the spindle cannot move during operation — any slip can damage the machine or workpiece.</p>
+</div>
+<hr />
+<hr />
+<h2 id="ready-to-proceed">Ready to Proceed?<a class="headerlink" href="#ready-to-proceed" title="Permanent link">&para;</a></h2>
+<p>You have now completed tool attachment and ready to move on to the <strong>Wiring and Electronics</strong>.</p>
+<p align="center">
+  <a href="/EnderCNCs/wiring" class="md-button md-button--primary">
+    Continue to Wiring and Electronics →
+  </a>
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
               </article>
             </div>
           
@@ -1538,10 +1724,10 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "/EnderCNCs/", "features": ["navigation.instant", "navigation.sections", "navigation.indexes", "toc.integrate", "search.highlight", "search.suggest"], "search": "/EnderCNCs/assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.instant", "navigation.sections", "navigation.indexes", "toc.integrate", "search.highlight", "search.suggest"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="/EnderCNCs/assets/javascripts/bundle.d7400e89.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.d7400e89.min.js"></script>
       
     
   </body>
