@@ -309,6 +309,16 @@
       "imageUrl": "https://cdn.discordapp.com/attachments/1398224248664752249/1499017167251968041/IMG_0384.jpg?ex=69f34407&is=69f1f287&hm=915350bf0a93ccbbf6020d74d1d3dd421337c3a4edb19e4e362801fa63dc69e7&",
       "extraImages": [],
       "issuedAt": "2026-04-29T12:00:58.436Z"
+    },
+    {
+      "serialNumber": 32,
+      "username": "djvt7",
+      "machineVersion": "Custom Build",
+      "machineName": "CR10CNC",
+      "buildDate": "2026-08-09",
+      "imageUrl": "https://e3cnc.duckdns.org/images/build-32.jpg",
+      "extraImages": [],
+      "issuedAt": "2026-08-09T17:07:00.445Z"
     }
   ]
 }
