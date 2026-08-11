@@ -319,6 +319,106 @@
       "imageUrl": "https://e3cnc.duckdns.org/images/build-32.jpg",
       "extraImages": [],
       "issuedAt": "2026-08-09T17:07:00.445Z"
+    },
+    {
+      "serialNumber": 33,
+      "username": "chaukmusic",
+      "machineVersion": "EnderCNC MGN",
+      "machineName": "Ava",
+      "buildDate": "2026-05-27",
+      "imageUrl": "http://89.251.18.227:3000/images/build-33.mp4",
+      "extraImages": [],
+      "issuedAt": "2026-05-27T07:37:08.627Z"
+    },
+    {
+      "serialNumber": 34,
+      "username": "ric2386",
+      "machineVersion": "Ender3CNC (Budget)",
+      "machineName": "Ric E3CNC",
+      "buildDate": "2026-05-28",
+      "imageUrl": "http://89.251.18.227:3000/images/build-34.jpg",
+      "extraImages": [],
+      "issuedAt": "2026-05-28T05:19:05.987Z"
+    },
+    {
+      "serialNumber": 35,
+      "username": "toyrace",
+      "machineVersion": "Ender3CNC (Budget)",
+      "machineName": "Walter",
+      "buildDate": "2026-05-28",
+      "imageUrl": "http://89.251.18.227:3000/images/build-35.jpg",
+      "extraImages": [],
+      "issuedAt": "2026-05-28T17:47:26.083Z"
+    },
+    {
+      "serialNumber": 36,
+      "username": "ima_f1",
+      "machineVersion": "Custom Build",
+      "machineName": "Custom Build",
+      "buildDate": "2026-06-01",
+      "imageUrl": "http://89.251.18.227:3000/images/build-36.jpg",
+      "extraImages": [],
+      "issuedAt": "2026-06-01T18:55:11.542Z"
+    },
+    {
+      "serialNumber": 37,
+      "username": "aka_talon",
+      "machineVersion": "E3CNC Rod Mod",
+      "machineName": "Raptor",
+      "buildDate": "2026-06-10",
+      "imageUrl": "http://89.251.18.227:3000/images/build-37.jpg",
+      "extraImages": [],
+      "issuedAt": "2026-06-10T19:18:00.311Z"
+    },
+    {
+      "serialNumber": 38,
+      "username": "aka_talon",
+      "machineVersion": "E3CNC Rod Mod",
+      "machineName": "Raptor",
+      "buildDate": "2026-06-10",
+      "imageUrl": "http://89.251.18.227:3000/images/build-38.jpg",
+      "extraImages": [],
+      "issuedAt": "2026-06-10T23:02:35.597Z"
+    },
+    {
+      "serialNumber": 39,
+      "username": "florian_848",
+      "machineVersion": "Ender3CNC (Budget)",
+      "machineName": "Ender Vinci",
+      "buildDate": "2026-06-21",
+      "imageUrl": "http://89.251.18.227:3050/images/build-39.jpg",
+      "extraImages": [],
+      "issuedAt": "2026-06-21T21:33:23.429Z"
+    },
+    {
+      "serialNumber": 40,
+      "username": "eliape_",
+      "machineVersion": "E3CNC Rod Mod",
+      "machineName": "E3CNC Rod Mod",
+      "buildDate": "2026-06-23",
+      "imageUrl": "http://89.251.18.227:3050/images/build-40.jpg",
+      "extraImages": [],
+      "issuedAt": "2026-06-23T09:04:03.981Z"
+    },
+    {
+      "serialNumber": 41,
+      "username": "dakrueml",
+      "machineVersion": "EnderCNC Original",
+      "machineName": "EnderCNC Original",
+      "buildDate": "2026-06-25",
+      "imageUrl": "http://89.251.18.227:3050/images/build-41.png",
+      "extraImages": [],
+      "issuedAt": "2026-06-25T20:18:20.750Z"
+    },
+    {
+      "serialNumber": 42,
+      "username": "djvt7",
+      "machineVersion": "Custom Build",
+      "machineName": "CR10CNC",
+      "buildDate": "2026-08-09",
+      "imageUrl": "https://cdn.discordapp.com/attachments/1398224248664752249/1536041055324217365/IMG_9742.jpg?ex=6a7bef75&is=6a7a9df5&hm=91641c4f5dfde11d641f027cbfa3ec49c5339b34fb7f629bde0cb12f09a349fd&",
+      "extraImages": [],
+      "issuedAt": "2026-08-09T20:06:53.750Z"
     }
   ]
 }
