@@ -419,6 +419,16 @@
       "imageUrl": "https://cdn.discordapp.com/attachments/1398224248664752249/1536041055324217365/IMG_9742.jpg?ex=6a7bef75&is=6a7a9df5&hm=91641c4f5dfde11d641f027cbfa3ec49c5339b34fb7f629bde0cb12f09a349fd&",
       "extraImages": [],
       "issuedAt": "2026-08-09T20:06:53.750Z"
+    },
+    {
+      "serialNumber": 43,
+      "username": "daniel_stoelzner",
+      "machineVersion": "EnderCNC MGN",
+      "machineName": "EnderCNC MGN",
+      "buildDate": "2026-08-19",
+      "imageUrl": "https://cdn.discordapp.com/attachments/1398224248664752249/1539557896080199750/P1046627.JPG?ex=6a86c086&is=6a856f06&hm=6796518734d034c7fe986355e989bd955287592ea89b6633555fa905fb2c0ab6&",
+      "extraImages": [],
+      "issuedAt": "2026-08-19T09:10:09.232Z"
     }
   ]
 }
