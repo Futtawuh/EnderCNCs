@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#ender-3-cnc-build-manual" class="md-skip">
+        <a href="#ender-3-cncs-build-manual" class="md-skip">
           Skip to content
         </a>
       
@@ -368,10 +368,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#what-youll-build" class="md-nav__link">
+  <a href="#the-basic-model" class="md-nav__link">
     <span class="md-ellipsis">
       
-        What You’ll Build
+        The Basic Model
       
     </span>
   </a>
@@ -412,10 +412,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#need-to-see-more" class="md-nav__link">
+  <a href="#need-to-see-the-builds" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Need to see more?
+        Need to see the builds?
       
     </span>
   </a>
@@ -1646,26 +1646,23 @@
   
 
 
-<h1 id="ender-3-cnc-build-manual">Ender 3 CNC Build Manual<a class="headerlink" href="#ender-3-cnc-build-manual" title="Permanent link">&para;</a></h1>
-<div class="admonition warning">
-<p class="admonition-title">Early Release</p>
-<p>This is a prerelease of the manual. Expect iterative improvements.</p>
+<h1 id="ender-3-cncs-build-manual">Ender 3 CNCs Build Manual<a class="headerlink" href="#ender-3-cncs-build-manual" title="Permanent link">&para;</a></h1>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/E3CNC/E3CNC/main/docs/assets/e3c_logo.svg" alt="E3CNC UI" width="200">
 </div>
-<p><strong>Converting a Proven Motion Platform into a Precision CNC System</strong></p>
-<p>The Ender 3 is a well-understood, mechanically consistent motion platform. Ender3CNC transforms it into a capable desktop CNC machine — not as a novelty conversion, but as a deliberate, mechanically considered upgrade. We want to save machines from the landfill and give them a new purpose.</p>
-<p>This manual provides a structured, engineering-focused pathway to convert a standard Ender 3 (or Ender 3 Pro) into a rigid, repeatable CNC platform using:</p>
-<ul>
-<li>Documented design decisions</li>
-<li>Tested configurations</li>
-</ul>
-<p>The result is a machine capable of cutting hardwood, plastics, and aluminum while maintaining affordability and accessibility.</p>
-<hr />
+
+<div class="admonition note">
+<p class="admonition-title">Work in Progress</p>
+<p>This project is under active development. Revisions, refinements, and corrections are ongoing. Contributions are always welcome! </p>
+<p>If you spot an issue, feel free to <a href="https://github.com/Futtawuh/EnderCNCs/issues">open an issue</a> and let us know, or clone the repository and <a href="https://github.com/Futtawuh/EnderCNCs/pulls">submit a pull request</a>.</p>
+</div>
 <h2 id="design-philosophy">Design Philosophy<a class="headerlink" href="#design-philosophy" title="Permanent link">&para;</a></h2>
 <p>This project is not about bolting a spindle onto a printer. It is built around these engineering priorities:</p>
-<p><strong>Maximum Reuse</strong> - Retain as much of the original machine as possible — frame, motion components, electronics — to reduce cost and complexity. Save the planet!</p>
-<p><strong>Controlled Scalability</strong> - Allow adaptation to custom frames or expanded builds without redesigning the entire system.</p>
-<p>Every modification exists for a reason: improved stiffness, reduced deflection, better load handling, or cleaner integration.</p>
-<hr />
+<ul>
+<li><strong>Maximum Reuse</strong> - Retain as much of the original machine as possible — frame, motion components, electronics — to reduce cost and complexity. Save the planet!</li>
+<li><strong>Controlled Scalability</strong> - Allow adaptation to custom frames or expanded builds without redesigning the entire system.</li>
+<li><strong>Modifications with reason</strong> improved stiffness, reduced deflection, better load handling, or cleaner integration.</li>
+</ul>
 <h2 id="performance-snapshot">Performance Snapshot<a class="headerlink" href="#performance-snapshot" title="Permanent link">&para;</a></h2>
 <p>While this is still a developing platform, current test results demonstrate:</p>
 <ul>
@@ -1674,8 +1671,7 @@
 <li>Repeatable part production</li>
 </ul>
 <p>The conversion reinforces primary load paths and implements independent dual Y-axis control, reducing racking, improving torsional resistance, and increasing positional stability under machining forces. Final performance depends on tool selection, feeds and speeds, spindle choice, and tuning quality.</p>
-<p>This is not an industrial VMC. It is a capable, budget-conscious desktop CNC system when built and configured properly.</p>
-<hr />
+<p><em>This is not an industrial <a href="https://www.mechanicaleducation.com/difference-between-cnc-and-vmc/">VMC</a>. It is a capable, budget-conscious desktop CNC system when built and configured properly.</em></p>
 <h2 id="who-this-project-is-for">Who This Project Is For<a class="headerlink" href="#who-this-project-is-for" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Makers comfortable assembling mechanical systems</li>
@@ -1693,21 +1689,22 @@
 </ul>
 <p>This build rewards patience and mechanical understanding.</p>
 <hr />
-<div class="admonition note">
-<p class="admonition-title">Work in Progress</p>
-<p>This documentation is under active development.
-Revisions, refinements, and corrections are ongoing.
-If you encounter an issue or want to contribute feedback:
-<a href="https://github.com/john-clark/EnderCNC/issues">https://github.com/john-clark/EnderCNC/issues</a></p>
-</div>
-<hr />
-<h2 id="what-youll-build">What You’ll Build<a class="headerlink" href="#what-youll-build" title="Permanent link">&para;</a></h2>
-<p><img alt="Ender3CNC Build 1" src="models/vwheel/images/447669414-df2746be-0fd8-4aa2-b609-81031dc4cfa2.png" />
-<img alt="Ender3CNC Build 2" src="models/vwheel/images/447669480-43854a83-0945-4e80-aa53-9ccf8a7e4b0b.png" /></p>
+<h2 id="the-basic-model">The Basic Model<a class="headerlink" href="#the-basic-model" title="Permanent link">&para;</a></h2>
+<p>There are several models to choose from and we are working on getting information published as soon as we can.</p>
+<p>Currently we are in progress of completing the build manual for the <strong>Basic Model</strong>. </p>
+<p><img alt="Ender3CNC Build 1" src="models/vwheel/images/447669414-df2746be-0fd8-4aa2-b609-81031dc4cfa2.png" /></p>
 <div class="admonition success">
 <p class="admonition-title">Build Gallery</p>
-<p>See user builds in the <a href="Builds/gallery/">Gallery</a></p>
+<p>Examples of CNC's that users have built can be found in the <a href="Builds/gallery/">Gallery</a></p>
 </div>
+<p><strong>Converting a Proven Motion Platform into a Precision CNC System</strong></p>
+<p>The Ender 3 is a well-understood, mechanically consistent motion platform. Ender3CNC transforms it into a capable desktop CNC machine — not as a novelty conversion, but as a deliberate, mechanically considered upgrade. We want to save machines from the landfill and give them a new purpose.</p>
+<p>This manual provides a structured, engineering-focused pathway to convert a standard Ender 3 (or Ender 3 Pro) into a rigid, repeatable CNC platform using:</p>
+<ul>
+<li>Documented design decisions</li>
+<li>Tested configurations</li>
+</ul>
+<p>The result is a machine capable of cutting hardwood, plastics, and aluminum while maintaining affordability and accessibility.</p>
 <hr />
 <h2 id="control-architecture">Control Architecture<a class="headerlink" href="#control-architecture" title="Permanent link">&para;</a></h2>
 <p>Tested Reference configurations:</p>
@@ -1746,7 +1743,7 @@ If you encounter an issue or want to contribute feedback:
 </p>
 
 <hr />
-<h2 id="need-to-see-more">Need to see more?<a class="headerlink" href="#need-to-see-more" title="Permanent link">&para;</a></h2>
+<h2 id="need-to-see-the-builds">Need to see the builds?<a class="headerlink" href="#need-to-see-the-builds" title="Permanent link">&para;</a></h2>
 <p align="center">
   <a href="Builds/gallery" class="md-button md-button--secondary">
     View the Build Gallery →
