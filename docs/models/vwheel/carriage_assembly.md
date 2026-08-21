@@ -127,10 +127,10 @@ For reference only, this will be explained step by step.
     
 ## Ready to Proceed?
 
-After completing these steps, your ready for **Gantry Assembly**.
+After completing these steps, your ready for **XY Joint Assembly**.
 
 <p align="center">
-  <a href="/EnderCNCs/models/vwheel/gantry" class="md-button md-button--primary">
-    Continue to Gantry Assembly →
+  <a href="/EnderCNCs/models/vwheel/frame" class="md-button md-button--primary">
+    Continue to XY Joint Assembly →
   </a>
 </p>
