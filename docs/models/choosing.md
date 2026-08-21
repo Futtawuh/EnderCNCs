@@ -12,11 +12,16 @@ Here is a breakdown of the available variants to help you decide:
 * **Overview:** This is the foundational conversion guide. It keeps the core architecture of the Ender 3 intact while introducing the rigidity and mechanics needed for milling. 
 * **Pros:** Most cost-effective if you are converting an existing, working Ender 3 without buying extra hardware components.
 
-<p align="center">
-  <a href="/EnderCNCs/models/vwheel/carriage_prep" class="md-button md-button--primary">
-    Start Carriage Preparation →  
-  </a>
-</p>
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 30px; margin: 1.5em 0;">
+  <div style="flex: 1; max-width: 50%;">
+    <img src="/EnderCNCs/models/vwheel/images/447669414-df2746be-0fd8-4aa2-b609-81031dc4cfa2.png" width="100%" alt="image" style="margin: 0; display: block;">
+  </div>
+  <div style="flex: 1; text-align: center;">
+    <a href="/EnderCNCs/models/vwheel/BOM" class="md-button md-button--primary">
+      Start with the BOM →  
+    </a>
+  </div>
+</div>
 
 ---
 
@@ -26,11 +31,16 @@ Here is a breakdown of the available variants to help you decide:
 * **Overview:** Modifies the structural motion paths to handle lateral cutting loads better than stock plastic-wheeled setups.
 * **Pros:** Great middle-ground for improving structural stiffness.
 
-<p align="center">
-  <a href="" class="md-button md-button--warning">
-    Coming Soon
-  </a>
-</p>
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 30px; margin: 1.5em 0;">
+  <div style="flex: 1; max-width: 50%;">
+    <img src="/EnderCNCs/models/rodmod/images/530242176-5c84db71-b683-490a-b512-def62845910a.png" width="100%" alt="image" style="margin: 0; display: block;">
+  </div>
+  <div style="flex: 1; text-align: center;">
+    <a href="#" class="md-button md-button--warning">
+      Build Manual Coming Soon
+    </a>
+  </div>
+</div>
 
 ---
 
@@ -40,11 +50,17 @@ Here is a breakdown of the available variants to help you decide:
 * **Overview:** Replaces standard V-wheel rollers with linear guide rails (MGN12H) for vastly improved carriage and gantry stability.
 * **Pros:** Significantly better rigidity, less maintenance over time, and cleaner surface finishes on milled parts.
 
-<p align="center">
-  <a href="" class="md-button md-button--warning">
-    Coming Soon
-  </a>
-</p>
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 30px; margin: 1.5em 0;">
+  <div style="flex: 1; max-width: 50%;">
+    <img src="/EnderCNCs/models/railmod/images/593381836-30cf59dd-78aa-44b3-8aa8-acf83327304a.png" width="100%" alt="image" style="margin: 0; display: block;">
+  </div>
+  <div style="flex: 1; text-align: center;">
+    <a href="#" class="md-button md-button--warning">
+      Build Manual Coming Soon
+    </a>
+  </div>
+</div>
+
 
 ---
 
@@ -54,11 +70,17 @@ Here is a breakdown of the available variants to help you decide:
 * **Overview:** Adapts the compact platform layout to utilize rod-based motion systems, increasing lateral load handling and resistance to cutting deflection. 
 * **Pros:** Excellent rigidity boost over standard stock configurations while maintaining an accessible build path for experienced makers.
 
-<p align="center">
-  <a href="" class="md-button md-button--warning">
-    Coming Soon
-  </a>
-</p>
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 30px; margin: 1.5em 0;">
+  <div style="flex: 1; max-width: 50%;">
+    <img src="/EnderCNCs/models/endermilo/rodmod/images/593382576-73e69dcf-b6fb-4035-9d93-cf713979125c.png" width="100%" alt="image" style="margin: 0; display: block;">
+  </div>
+  <div style="flex: 1; text-align: center;">
+    <a href="#" class="md-button md-button--warning">
+      Build Manual Coming Soon
+    </a>
+  </div>
+</div>
+
 
 ---
 
@@ -68,11 +90,18 @@ Here is a breakdown of the available variants to help you decide:
 * **Overview:** Integrates linear guide rails into the compact layout, replacing traditional rollers for ultra-smooth movement under heavy milling loads.
 * **Pros:** Top-tier precision, superior surface finishes on milled parts, and long-term durability when cutting harder plastics or soft metals.
 
-<p align="center">
-  <a href="" class="md-button md-button--warning">
-    Coming Soon
-  </a>
-</p>
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 30px; margin: 1.5em 0;">
+  <div style="flex: 1; max-width: 50%;">
+    <img src="/EnderCNCs/models/endermilo/railmod/images/608874350-29e41b0c-342a-46f1-aad0-1d905dac65ef.png" 
+    width="100%" alt="image" style="margin: 0; display: block;">
+  </div>
+  <div style="flex: 1; text-align: center;">
+    <a href="#" class="md-button md-button--warning">
+      Build Manual Coming Soon
+    </a>
+  </div>
+</div>
+
 
 ---
 

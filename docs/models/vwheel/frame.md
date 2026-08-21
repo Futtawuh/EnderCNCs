@@ -154,7 +154,7 @@ of all the Extrusions
 Once you have completed the frame assembly, you are ready to finish the **Gantry Assembly**.
 
 <p align="center">
-  <a href="/EnderCNCs/gantry" class="md-button md-button--primary">
+  <a href="/EnderCNCs/models/vwheel/gantry" class="md-button md-button--primary">
     Continue to Final Gantry Assembly →
   </a>
 </p>
