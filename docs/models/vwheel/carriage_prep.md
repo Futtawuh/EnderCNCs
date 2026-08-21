@@ -91,7 +91,7 @@ This chapter covers assembling the carriage, mounting motors, bearings, and spac
 After completing these steps, your start assembling the **Carriage Assembly**.
 
 <p align="center">
-  <a href="carriage_assembly" class="md-button md-button--primary">
+  <a href="/EnderCNCs/models/vwheel/carriage_assembly" class="md-button md-button--primary">
     Continue to Carriage Assembly →
   </a>
 </p>

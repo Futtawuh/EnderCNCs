@@ -28,7 +28,7 @@ This chapter covers routing the GT2 belts.
 You are now ready to move on to spindle attachment and **Tool Selection**.
 
 <p align="center">
-  <a href="/EnderCNCs/spindle" class="md-button md-button--primary">
+  <a href="/EnderCNCs/models/vwheel/spindle" class="md-button md-button--primary">
     Continue to Tool Selection →
   </a>
 </p>

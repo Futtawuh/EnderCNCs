@@ -130,7 +130,7 @@ For reference only, this will be explained step by step.
 After completing these steps, your ready for **Gantry Assembly**.
 
 <p align="center">
-  <a href="gantry_ends" class="md-button md-button--primary">
+  <a href="/EnderCNCs/models/vwheel/gantry" class="md-button md-button--primary">
     Continue to Gantry Assembly →
   </a>
 </p>
