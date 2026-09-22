@@ -439,6 +439,16 @@
       "imageUrl": "http://89.251.18.227:3000/images/build-44.jpg",
       "extraImages": [],
       "issuedAt": "2026-09-14T09:20:29.593Z"
+    },
+    {
+      "serialNumber": 45,
+      "username": "astromemania",
+      "machineVersion": "EnderCNC Original",
+      "machineName": "EnderCNC Original",
+      "buildDate": "2026-09-22",
+      "imageUrl": "http://89.251.18.227:3000/images/build-45.jpg",
+      "extraImages": [],
+      "issuedAt": "2026-09-22T15:58:50.773Z"
     }
   ]
 }
