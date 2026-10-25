@@ -25,7 +25,7 @@
       
       
       <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.0">
     
     
       
@@ -33,10 +33,10 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.57a0d79d.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.fb2fffe2.min.css">
       
       
 
@@ -80,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#firmware-setup" class="md-skip">
+        <a href="#firmware-setup-supported-options" class="md-skip">
           Skip to content
         </a>
       
@@ -1314,10 +1314,104 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#supported-options" class="md-nav__link">
+  <a href="#understanding-the-workflow-slicers-vs-cam-software" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Supported Options
+        Understanding the Workflow: Slicers vs. CAM Software
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#firmware-comparison-matrix" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Firmware Comparison Matrix
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deep-dive-into-your-firmware-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Deep Dive into Your Firmware Options
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Deep Dive into Your Firmware Options">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-grblhal-the-purist-cnc-choice" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. grblHAL (The Purist CNC Choice)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-klipper-the-power-user-choice-and-e3cnc-preferred" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Klipper (The Power-User Choice and E3CNC preferred)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-marlin-the-old-school-choice" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Marlin (The Old School Choice)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-other-firmware-might-be-viable" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What Other Firmware Might Be Viable?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#considerations-for-specific-hardware-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Considerations for Specific Hardware Setup
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recommendation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Recommendation
       
     </span>
   </a>
@@ -1358,21 +1452,82 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#still-to-be-completed" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        !!!! STILL TO BE COMPLETED !!!!
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="!!!! STILL TO BE COMPLETED !!!!">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#v1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        V1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#v4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        V4
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-of-klipper-that-has-e3cnc-customizations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example of Klipper that has E3CNC customizations
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
       </ul>
     </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#grbl-setup-fluidnc" class="md-nav__link">
+  <a href="#grbl-setup" class="md-nav__link">
     <span class="md-ellipsis">
       
-        GRBL Setup / FluidNC
+        GRBL Setup
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="GRBL Setup / FluidNC">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#marlin-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Marlin Setup
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Marlin Setup">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -1638,48 +1793,94 @@
   
 
 
-<h1 id="firmware-setup">Firmware Setup<a class="headerlink" href="#firmware-setup" title="Permanent link">&para;</a></h1>
-<p>This chapter explains firmware options for your Ender 3 CNC conversion.</p>
+<h1 id="firmware-setup-supported-options">Firmware Setup &amp; Supported Options<a class="headerlink" href="#firmware-setup-supported-options" title="Permanent link">&para;</a></h1>
+<p>Converting an Ender 3 into a CNC machine is a fun project, but adapting 3D printer hardware (especially firmware and pin mapping) for CNC subtractive manufacturing requires careful planning. Depending on which board you have will determine your options for firmware.</p>
+<h3 id="understanding-the-workflow-slicers-vs-cam-software">Understanding the Workflow: Slicers vs. CAM Software<a class="headerlink" href="#understanding-the-workflow-slicers-vs-cam-software" title="Permanent link">&para;</a></h3>
+<p>Before choosing your firmware, it helps to understand how your design files turn into machine movement, and why a CNC conversion changes your software toolchain:</p>
+<ul>
+<li><strong>Additive Slicers (3D Printing):</strong> Standard 3D printing uses a <strong>slicer</strong> (like Cura, PrusaSlicer, or OrcaSlicer) that takes a 3D mesh model (typically an <code>.STL</code> or <code>.3MF</code> file), cuts it into flat horizontal layers, and generates G-code designed to lay down melted filament layer-by-layer.</li>
+<li><strong>Subtractive CAM Software (CNC):</strong> CNC machining is the opposite—it is a subtractive process where material is carved away from a solid block. Instead of a 3D printer slicer, you use <strong>CAM (Computer-Aided Manufacturing) software</strong> (such as Fusion 360, FreeCAD, VCarve, PureCutCNC, Kiri:moto, E3CNC CAM or Carbide Create). CAM software takes precision engineering files (like <code>.STEP</code> or <code>.DXF</code> files) and calculates intelligent toolpaths (pockets, contours, facing, and drilling operations) based on your endmill size, spindle speed, feed rates, and material properties.</li>
+</ul>
+<p>Here is a beginners' decision guide breaking down your options (<strong>Marlin</strong>, <strong>Klipper</strong>, and <strong>grblHAL</strong>), and another alternative (<strong>FluidNC</strong>).</p>
 <hr />
-<h2 id="supported-options">Supported Options<a class="headerlink" href="#supported-options" title="Permanent link">&para;</a></h2>
+<h2 id="firmware-comparison-matrix">Firmware Comparison Matrix<a class="headerlink" href="#firmware-comparison-matrix" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
 <th>Firmware</th>
-<th>Notes</th>
+<th>Best Suited For</th>
+<th>Pros</th>
+<th>Cons</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Klipper</td>
-<td>Recommended if a Raspberry Pi or old laptop is available</td>
+<td><strong>grblHAL</strong></td>
+<td>Native CNC operation &amp; traditional G-code senders</td>
+<td>Real-time motion, robust CNC features (tool offsets, accurate feedholds), native G-code support.</td>
+<td>Harder to configure pin mappings manually for Creality 4.2.2 boards; limited documentation for custom board hacks.</td>
 </tr>
 <tr>
-<td>GRBL</td>
-<td>Standard CNC option, must purchase an ESP32/32-bit board</td>
+<td><strong>Klipper</strong></td>
+<td>Flexibility, high performance, and macro automation</td>
+<td>Extremely flexible config files (no recompiling to change pins), powerful macro language for spindle control.</td>
+<td>Requires a secondary host computer (like a Raspberry Pi running Klipper/Moonraker).</td>
+</tr>
+<tr>
+<td><strong>Marlin</strong></td>
+<td>Users wanting a self-contained board with OctoPrint</td>
+<td>Familiarity; works out-of-the-box with OctoPrint's CNC plugins.</td>
+<td>Bloated for CNC; changing pin configurations requires recompiling source code via VS Code/PlatformIO.</td>
 </tr>
 </tbody>
 </table>
+<h2 id="deep-dive-into-your-firmware-options">Deep Dive into Your Firmware Options<a class="headerlink" href="#deep-dive-into-your-firmware-options" title="Permanent link">&para;</a></h2>
+<h3 id="1-grblhal-the-purist-cnc-choice">1. grblHAL (The Purist CNC Choice)<a class="headerlink" href="#1-grblhal-the-purist-cnc-choice" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Overview:</strong> grblHAL is the modern evolution of classic GRBL, for 32-bit boards like the STM32 found on your v4 board. grblHAL will not work on the V1 Ender boards.</li>
+<li><strong>The Good:</strong> It is built <em>specifically</em> for CNC mills and lasers. It handles acceleration, arc interpolation, and real-time jogging natively without the translation layers required by 3D printer firmwares. It pairs seamlessly with lightweight senders like <strong>ioSender</strong> or <strong>UGS (Universal Gcode Sender)</strong>. Many low cost Chinese CNC's are now using grblHAL so learning this will transfer to other machines.</li>
+<li><strong>The Bad:</strong> Configuring a custom pin map for a Creality v4 board in grblHAL requires using their web builder or editing source header files, which can have a steeper learning curve. You need a seperate machine to run the gcode sender.</li>
+</ul>
+<h3 id="2-klipper-the-power-user-choice-and-e3cnc-preferred">2. Klipper (The Power-User Choice and E3CNC preferred)<a class="headerlink" href="#2-klipper-the-power-user-choice-and-e3cnc-preferred" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Overview:</strong> Klipper offloads heavy calculations to a host (like a Raspberry Pi) while the Creality board acts strictly as a low-level motor controller.</li>
+<li><strong>The Good:</strong> <strong>No recompiling needed.</strong> If you want to change your spindle pin, reassign the extruder port to run your second Y-motor, or tweak homing behavior, you just edit a text file (<code>printer.cfg</code>) and hit restart. Klipper handles dual-Y auto-alignment beautifully through macros and independent stepper definitions. You can also write custom macros to safely spin up the BTS7960 driver via standard PWM commands. Klipper works for both V1 and V4 Creality boards.</li>
+<li><strong>The Bad:</strong> It requires a host computer running Linux with the Klipper system to operate, adding a layer of network/hardware setup. Klipper is made for 3D printers, but has been customized for CNC software.</li>
+</ul>
+<h3 id="3-marlin-the-old-school-choice">3. Marlin (The Old School Choice)<a class="headerlink" href="#3-marlin-the-old-school-choice" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Overview:</strong> Marlin is what your Ender 3 ran originally. It can be configured for CNC, and people often pair it with <strong>OctoPrint</strong> using the CNC Companion plugin.</li>
+<li><strong>The Good:</strong> If you already know how to configure Marlin (editing <code>Configuration.h</code> and <code>Configuration_Adv.h</code>), you can explicitly define a CNC machine profile, disable heated bed limits, and repurpose the extruder driver slot for your second Y-axis.</li>
+<li><strong>The Bad:</strong> Marlin is fundamentally a 3D printer firmware. Features like tool changes, proper work coordinate systems (G54–G59), and feed rate overrides are clunky or secondary compared to dedicated CNC platforms. Every single configuration change requires recompiling and reflashing via an SD card.</li>
+</ul>
+<h3 id="what-other-firmware-might-be-viable">What Other Firmware Might Be Viable?<a class="headerlink" href="#what-other-firmware-might-be-viable" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>FluidNC:</strong>  FluidNC is heavily used in modern CNC conversions. However, FluidNC is primarily designed for ESP32 microcontrollers. Ender V4 boards use a STM32 or V1 board use ATmega1284P. Unless you are willing to swap your Creality mainboard for somethng like an ESP32 NodeMCU breakout or other CNC shields), stick to grblHAL or Klipper for the stock hardware.</li>
+</ul>
+<hr />
+<h2 id="considerations-for-specific-hardware-setup">Considerations for Specific Hardware Setup<a class="headerlink" href="#considerations-for-specific-hardware-setup" title="Permanent link">&para;</a></h2>
+<ol>
+<li><strong>Dual-Y Motors &amp; Extruder Port:</strong> Using the extruder stepper driver (<code>E0</code>) to drive a second Y-axis motor requires remapping the stepper channels in firmware:</li>
+<li><strong>Klipper:</strong> Define an independent stepper section (<code>[stepper_y1]</code>) using the step/dir/enable pins assigned to the <code>E0</code> driver slot.</li>
+<li><strong>Marlin / grblHAL:</strong> Explicitly map driver channels in hardware definitions to duplicate the Y-axis rather than treating the driver as an extruder.</li>
+<li><strong>FluidNC</strong> make sure the controller has enough drivers to handle the dual y, many only come with 3 drivers.</li>
+<li><strong>BTS7960 Driver &amp; Hotend Port:</strong> High-current BTS7960 motor drivers require clean PWM signals and logic-level enables:</li>
+<li>Map the hotend heater MOSFET pin (<code>PA1</code> on Creality v4.2.2) as a dedicated hardware PWM spindle output (<code>M3</code>/<code>M4</code>).</li>
+<li>Ensure printer-focused thermal runaway safety checks on that pin are disabled in firmware.</li>
+<li><strong>SSR</strong> Switching Relays (for high-power motors): A relay board is required to switch high-power motors and to isolate the mainboard from the high voltage of other components like mains power for vacuum or on/off spindles.</li>
+</ol>
+<p><img alt="spindle wiring diagram" src="../images/spindlewire.jpg" /></p>
+<h2 id="recommendation">Recommendation<a class="headerlink" href="#recommendation" title="Permanent link">&para;</a></h2>
+<p>If you already have a Raspberry Pi or a mini-PC running things like OctoPrint or Klipper ecosystems, <strong>Klipper</strong> gives you the easiest path to reconfigure pins on the fly without repeatedly flashing firmware binaries. If you want a dedicated, standalone machine controller that behaves precisely like an industrial CNC, look into <strong>grblHAL</strong>.</p>
 <hr />
 <h2 id="klipper-setup">Klipper Setup<a class="headerlink" href="#klipper-setup" title="Permanent link">&para;</a></h2>
-<ol>
-<li>
-<p>Follow standard Klipper installation on your Raspberry Pi or Linux laptop. We recommend <a href="https://github.com/dw-0/kiauh">dw-0/kiauh</a> to get started.</p>
-</li>
-<li>
-<p>Copy a reference <code>printer.cfg</code> for the Ender CNC:</p>
-</li>
+<p>Install via KIAUH on a Raspberry Pi or Linux machine, deploy a reference <code>printer.cfg</code>, and verify motor direction and pin mappings prior to powering high-voltage spindle circuits. Follow standard Klipper installation on your Raspberry Pi or Linux laptop. We recommend <a href="https://github.com/dw-0/kiauh">dw-0/kiauh</a> to get started.</p>
+<ul>
 <li>Make sure the stepper, endstop, spindle, and belt parameters are correct for your MCU</li>
-<li>
-<p>Make sure all motors are spinning correctly and settings are correct for your MCU</p>
-</li>
-<li>
-<p>Test all axes manually before enabling motor power.</p>
-</li>
-<li>
+<li>Make sure all motors are spinning correctly and settings are correct for your MCU</li>
+</ul>
+<p>Test all axes manually before enabling motor power. Leave belts disconnected when testing motor directions.</p>
 <p>Configure homing and probe offsets for your spindle.</p>
-</li>
-</ol>
 <h3 id="example-configs">Example configs<a class="headerlink" href="#example-configs" title="Permanent link">&para;</a></h3>
 <ul>
 <li><a href="https://github.com/john-clark/EnderCNC/blob/main/klipper/v1.1.x_printer.cfg">Version 1.1.x Ender MCU printer.cfg</a> Original Ender 3</li>
@@ -1687,23 +1888,63 @@
 <li><a href="https://github.com/john-clark/EnderCNC/blob/main//klipper/v4.2.7_printer.cfg">Version 4.2.7 Ender MCU printer.cfg</a> Latest Ender 3 pro</li>
 </ul>
 <h3 id="how-to-document-your-mainboard">How to document your mainboard<a class="headerlink" href="#how-to-document-your-mainboard" title="Permanent link">&para;</a></h3>
-<p>Notice in the picture that the processor and motor has documented pins.</p>
+<p>Notice in the picture that the processor and motor has documented pins. </p>
+<h3 id="still-to-be-completed"><strong><em>!!!! STILL TO BE COMPLETED !!!!</em></strong><a class="headerlink" href="#still-to-be-completed" title="Permanent link">&para;</a></h3>
+<h4 id="v1">V1<a class="headerlink" href="#v1" title="Permanent link">&para;</a></h4>
 <p><img alt="Creality v1 mcu" src="../images/enderv1mcu.png" /></p>
+<h4 id="v4">V4<a class="headerlink" href="#v4" title="Permanent link">&para;</a></h4>
+<p><img alt="Creality v4 mcu" src="../images/enderv4mcu.png" /></p>
+<h4 id="example-of-klipper-that-has-e3cnc-customizations">Example of Klipper that has E3CNC customizations<a class="headerlink" href="#example-of-klipper-that-has-e3cnc-customizations" title="Permanent link">&para;</a></h4>
+<p><img alt="Klipper E3CNC" src="../images/klippere3cnc.jpg" /></p>
 <hr />
-<h2 id="grbl-setup-fluidnc">GRBL Setup / FluidNC<a class="headerlink" href="#grbl-setup-fluidnc" title="Permanent link">&para;</a></h2>
+<h2 id="grbl-setup">GRBL Setup<a class="headerlink" href="#grbl-setup" title="Permanent link">&para;</a></h2>
 <ol>
-<li>Flash your GRBL-compatible board according to manufacturer instructions.  </li>
-<li>Use the reference configuration for stepper settings, endstops, and spindle control.  </li>
-<li>Test movement manually before running any G-Code.</li>
+<li>Flash your board: Download or build the appropriate grblHAL binary for your STM32-based Creality board (v4.2.2 or v4.2.7...V1 will not work) using the grblHAL web builder or pre-compiled repositories. Flash via an SD card using the standard .bin file naming convention.</li>
+<li>Configure Pin Mappings &amp; Settings: Connect via a USB G-code sender (ioSender or UGS) and use $ configuration commands to set steps per millimeter, max rates, acceleration, and homing directions. You will need to customize the source or pin mapping table to configure the second Y-axis stepper mirroring and map the PWM spindle pin to the hotend heater port (PA1).</li>
+<li>Test Motion: Check limit switches ($X or ? status commands) and test axis movement manually at low feed rates with belts detached before sending actual G-code jobs.</li>
 </ol>
-<p><strong><a href="https://eghasemy.github.io/FluidNC_GUI/docs/getting-started/understanding-fluidnc/">FluidNC</a> Setup</strong></p>
 <p><strong>Typical GRBL CAM software</strong></p>
 <ul>
+<li><a href="https://github.com/terjeio/ioSender">ioSender</a> (Recommended for grblHAL)</li>
 <li><a href="https://github.com/Denvi/Candle">Candle</a></li>
 <li><a href="https://software.openbuilds.com/">OpenBuilds</a></li>
 <li><a href="https://planet-cnc.com/download.html">PlanetCNC</a></li>
+<li><a href="https://wiki.printnc.info/en/grbl">PrintNC</a></li>
+<li><a href="https://rckeith.co.uk/grbl-hotwire-for-cnc-foam-cutters/">Foam cutters (good info)</a></li>
 </ul>
-<p><img alt="Macrobase MCU" src="../images/616JqA4v1WL._AC_SL1200_.jpg" /></p>
+<p><img alt="candle" src="../images/candle.png" /></p>
+<hr />
+<h2 id="marlin-setup">Marlin Setup<a class="headerlink" href="#marlin-setup" title="Permanent link">&para;</a></h2>
+<ol>
+<li><strong>Environment Setup:</strong> Download the Marlin source code and the matching <code>Configurations</code> repository. Open the project in <strong>VS Code</strong> using the <strong>PlatformIO</strong> extension.</li>
+<li><strong>Modify Configuration Files:</strong></li>
+<li>Open <code>Configuration.h</code> and set your motherboard definition (<code>#define MOTHERBOARD BOARD_CREALITY_V422</code> or similar).</li>
+<li>Update axes limits (<code>X_MAX_POS</code>, <code>Y_MAX_POS</code>, <code>Z_MAX_POS</code>) to match your CNC working area.</li>
+<li>Disable thermal protections or configure the hotend temperature target behavior so it functions purely as a manual or G-code-driven PWM spindle control (<code>SPINDLE_FEATURE</code>).</li>
+<li>Configure ganged dual-Y settings if your board supports explicit multi-stepper definitions, or assign the extruder driver slot (<code>E0</code>) to duplicate the Y-axis.</li>
+<li><strong>Compile &amp; Flash:</strong> Build the firmware in PlatformIO, copy the generated <code>firmware.bin</code> file to the root of a FAT32-formatted micro-SD card, insert it into the powered-down Ender 3, and turn it on to flash.</li>
+<li><strong>Testing:</strong> Connect via OctoPrint (using the CNC Companion plugin) or a direct serial monitor to verify manual jogging and spindle toggle commands (<code>M3 S1000</code> / <code>M5</code>) before mounting any tooling.</li>
+</ol>
+<p><img alt="octo1" src="../images/octo1.png" /></p>
+<p><img alt="octo2" src="../images/octo2.png" /></p>
+<hr />
+<p><strong>FluidNC</strong></p>
+<p><strong><a href="https://eghasemy.github.io/FluidNC_GUI/docs/getting-started/understanding-fluidnc/">FluidNC</a></strong> is an extremely powerful, Wi-Fi and Web-UI enabled CNC firmware, but it natively targets <strong>ESP32</strong> microcontrollers rather than the stock Creality STM32 or ATmega boards.</p>
+<p><strong>When to use FluidNC on an Ender conversion:</strong>
+You decide to upgrade your machine by replacing the stock Creality mainboard with an ESP32-based CNC controller board with configuration via simple YAML files and web browser control. This is probably a much simpler solution than reusing old hardware.</p>
+<p><strong>Alternative Board Upgrade Example:</strong></p>
+<ol>
+<li>Connect the ESP32 board to your computer via USB.</li>
+<li>Flash the FluidNC firmware binary using Web Installer or ESPTOOL.</li>
+<li>Upload a custom <code>config.yaml</code> file defining your stepper pins, microstepping jumpers, limit switches, and PWM spindle pin mappings through the built-in Wi-Fi captive portal.</li>
+<li>Verify axis travel directions and safety interlocks.</li>
+</ol>
+<p>Make sure your board has the required stepper drivers this one</p>
+<p><a href="https://www.amazon.com/Effective-Controller-Machines-Capability-Switch/dp/B0FGTXSP17"><img alt="Effective MCU" src="../images/fluidncboard.jpg" /></a></p>
+<p>and not this one:</p>
+<p><a href="https://www.amazon.com/Breakout-Board-Control-Motion-Similar/dp/B0DRCTN54M"><img alt="Macrobase MCU" src="../images/616JqA4v1WL._AC_SL1200_.jpg" /></a></p>
+<p>FluidNC Screenshot</p>
+<p><img alt="fluidnc" src="../images/FluidNC1.png" /></p>
 <hr />
 <h3 id="important-notes">IMPORTANT NOTES<a class="headerlink" href="#important-notes" title="Permanent link">&para;</a></h3>
 <blockquote>
@@ -1711,32 +1952,24 @@
 </blockquote>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
+</div>
 <p>Keep a backup of working firmware configuration before making major changes.</p>
-</div>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
+</div>
 <p>Never run motors at full speed during first test</p>
-</div>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
+</div>
 <p>Verify wiring because Creality motors have crossover wires.</p>
-</div>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>Y axis has one motor inverted. Test Y motor without belts first.</p>
 </div>
+<p>Y axis has one motor inverted. Test Y motor without belts first.</p>
 <hr />
 <h2 id="ready-to-proceed">Ready to Proceed?<a class="headerlink" href="#ready-to-proceed" title="Permanent link">&para;</a></h2>
 <p>You have now completed Ender3CNC build and you can now do <strong>Trouble Shooting</strong> or move onto <strong>Post Processing</strong>.</p>
-<p align="center">
-  <a href="/EnderCNCs/troubleshooting" class="md-button md-button--warning">
-    Troubleshooting →
-  </a>
-
-  <a href="/EnderCNCs/cad/post_processing" class="md-button md-button--primary">
-    Post Processing →
-  </a>
-</p>
+<p><a href="/EnderCNCs/troubleshooting">Troubleshooting →</a> <a href="/EnderCNCs/cad/post_processing">Post Processing →</a></p>
 
 
 
@@ -1802,10 +2035,10 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.instant", "navigation.sections", "navigation.indexes", "toc.integrate", "search.highlight", "search.suggest"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.instant", "navigation.sections", "navigation.indexes", "toc.integrate", "search.highlight", "search.suggest"], "search": "../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      <script src="../assets/javascripts/bundle.c21346df.min.js"></script>
       
     
   </body>
